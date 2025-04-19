@@ -1,0 +1,251 @@
+2025-04-16 11:26:38,098 - INFO - Starting API Client for Image Processing...
+2025-04-16 11:26:38,098 - INFO - Sending POST request to: http://localhost:5000/process_plate
+2025-04-16 11:26:55,235 - INFO - Received successful POST response.
+2025-04-16 11:26:55,239 - INFO - JSON saved successfully to 'client_get_it_babe_folder/json_json_yawash_yawash_______________.json'
+2025-04-16 11:26:55,239 - INFO - Image saved successfully to 'client_get_it_babe_folder/yawash_yawash.jpg'
+2025-04-17 12:55:09,901 - INFO - Starting API Client for Image Processing...
+2025-04-17 12:55:09,902 - INFO - Sending POST request to: http://localhost:5000/process_plate
+2025-04-17 12:55:13,964 - ERROR - Error during POST request.
+Traceback (most recent call last):
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 445, in request
+    self.endheaders()
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1085, in _send_output
+    self.send(msg)
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1029, in send
+    self.connect()
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000027BE4E1D940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /process_plate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027BE4E1D940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\University\Semesters\Work\API_Main\client.py", line 75, in process_image_on_server
+    response = requests.post(process_endpoint, json=payload, timeout=100) # Increase timeout for potentially larger data/processing
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /process_plate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027BE4E1D940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-17 12:55:14,278 - WARNING - No valid JSON found in response.
+2025-04-17 12:55:44,428 - INFO - Starting API Client for Image Processing...
+2025-04-17 12:55:44,428 - INFO - Sending POST request to: http://localhost:5000/process_plate
+2025-04-17 12:55:48,510 - ERROR - Error during POST request.
+Traceback (most recent call last):
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 445, in request
+    self.endheaders()
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1085, in _send_output
+    self.send(msg)
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1029, in send
+    self.connect()
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002CE0BD7D940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /process_plate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002CE0BD7D940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\University\Semesters\Work\API_Main\client.py", line 75, in process_image_on_server
+    response = requests.post(process_endpoint, json=payload, timeout=100) # Increase timeout for potentially larger data/processing
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /process_plate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002CE0BD7D940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-17 12:55:48,526 - WARNING - No valid JSON found in response.
+2025-04-17 12:56:46,657 - INFO - Starting API Client for Image Processing...
+2025-04-17 12:56:46,657 - INFO - Sending POST request to: http://0.0.0.0:8000/process_plate
+2025-04-17 12:56:46,673 - ERROR - Error during POST request.
+Traceback (most recent call last):
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10049] The requested address is not valid in its context
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 445, in request
+    self.endheaders()
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1326, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1085, in _send_output
+    self.send(msg)
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1029, in send
+    self.connect()
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001FD157ED9D0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='0.0.0.0', port=8000): Max retries exceeded with url: /process_plate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FD157ED9D0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\University\Semesters\Work\API_Main\client.py", line 75, in process_image_on_server
+    response = requests.post(process_endpoint, json=payload, timeout=100) # Increase timeout for potentially larger data/processing
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=8000): Max retries exceeded with url: /process_plate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FD157ED9D0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context'))
+2025-04-17 12:56:46,673 - WARNING - No valid JSON found in response.
+2025-04-17 12:57:47,371 - INFO - Starting API Client for Image Processing...
+2025-04-17 12:57:47,371 - INFO - Sending POST request to: http://localhost:8000/process_plate
+2025-04-17 12:58:06,930 - INFO - Received successful POST response.
+2025-04-17 12:58:06,941 - INFO - JSON saved successfully to 'client_get_it_babe_folder/41GHAF47374.json'
+2025-04-17 12:58:06,945 - INFO - Image saved successfully to 'client_get_it_babe_folder/41GHAF47374.jpg'
+2025-04-17 12:59:44,274 - INFO - Starting API Client for Image Processing...
+2025-04-17 12:59:44,274 - INFO - Sending POST request to: http://localhost:8000/process_plate
+2025-04-17 13:00:06,761 - INFO - Received successful POST response.
+2025-04-17 13:00:06,767 - INFO - JSON saved successfully to 'client_get_it_babe_folder/95BE94826.json'
+2025-04-17 13:00:06,772 - INFO - Image saved successfully to 'client_get_it_babe_folder/95BE94826.jpg'
+2025-04-17 13:01:47,827 - INFO - Starting API Client for Image Processing...
+2025-04-17 13:01:47,827 - INFO - Sending POST request to: http://localhost:8000/process_plate
+2025-04-17 13:02:05,134 - INFO - Received successful POST response.
+2025-04-17 13:02:05,143 - INFO - JSON saved successfully to 'client_get_it_babe_folder/56YE15412.json'
+2025-04-17 13:02:05,149 - INFO - Image saved successfully to 'client_get_it_babe_folder/56YE15412.jpg'
+2025-04-17 13:03:18,642 - INFO - Starting API Client for Image Processing...
+2025-04-17 13:03:18,642 - INFO - Sending POST request to: http://localhost:8000/process_plate
+2025-04-17 13:03:39,754 - INFO - Received successful POST response.
+2025-04-17 13:03:39,756 - INFO - JSON saved successfully to 'client_get_it_babe_folder/94HEH89412.json'
+2025-04-17 13:03:39,756 - INFO - Image saved successfully to 'client_get_it_babe_folder/94HEH89412.jpg'
+2025-04-17 13:04:08,875 - INFO - Starting API Client for Image Processing...
+2025-04-17 13:04:08,875 - INFO - Sending POST request to: http://localhost:8000/process_plate
+2025-04-17 13:04:35,726 - INFO - Received successful POST response.
+2025-04-17 13:04:35,741 - INFO - JSON saved successfully to 'client_get_it_babe_folder/56YE15412.json'
+2025-04-17 13:04:35,744 - INFO - Image saved successfully to 'client_get_it_babe_folder/56YE15412.jpg'
+2025-04-17 13:05:38,264 - INFO - Starting API Client for Image Processing...
+2025-04-17 13:05:38,264 - INFO - Sending POST request to: http://localhost:8000/process_plate
+2025-04-17 13:05:59,683 - INFO - Received successful POST response.
+2025-04-17 13:05:59,695 - INFO - JSON saved successfully to 'client_get_it_babe_folder/56YE15412.json'
+2025-04-17 13:05:59,697 - INFO - Image saved successfully to 'client_get_it_babe_folder/56YE15412.jpg'

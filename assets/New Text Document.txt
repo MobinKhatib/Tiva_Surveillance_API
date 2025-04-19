@@ -1,0 +1,4 @@
+{
+    "original_timestamp": "April 2025",
+    "image_base64": ""
+}
