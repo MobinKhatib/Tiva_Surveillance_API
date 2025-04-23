@@ -1,9 +1,9 @@
 # config.py - Centralized settings
 
 ###Model Paths ###
-CAR_MODEL_PATH="E:/University/Semesters/Work/API_Main/model/best.pt" 
-PLATE_MODEL_PATH="E:/University/Semesters/Work/API_Main/model/best.pt"
-CHAR_MODEL_PATH="E:/University/Semesters/Work/API_Main/model/plate_character_recognizer_1.pt"
+CAR_MODEL_PATH="E:/University/Semesters/Work/Tiva_Surveillance_API/model/best.pt" 
+PLATE_MODEL_PATH="E:/University/Semesters/Work/Tiva_Surveillance_API/model/best.pt"
+CHAR_MODEL_PATH="E:/University/Semesters/Work/Tiva_Surveillance_API/model/plate_character_recognizer_1.pt"
 ### General Settings ###
 DEVICE = 'cpu'
 FPS = 30  # Default FPS

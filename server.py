@@ -97,20 +97,28 @@ def handle_plate_image(): # <-- Renamed function
             return jsonify({"error": "Invalid image data received"}), 400
 
         logging.info(f"Decoded image shape: {frame.shape}")    
-        plate_detector.detect_plates(frame)  # using processed frame for recognizing plates
+        #plate_detector.detect_plates(frame)  # using processed frame for recognizing plates
         #config.DATE = received_timestamp # this is the default timestamp, it'll set by clients
         plate_data, encoded_image = None, None
         # plate detected and best is saved
+        """
         if plate_detector.best_frames:
             first_id = list(plate_detector.best_frames.keys())[0]
             logging.info(f"First detected plate ID: {first_id}")
             
             plate_data = plate_detector.best_frames[first_id].get("plate_number", None)  # now extract what you want
             encoded_image = plate_detector.best_frames[first_id].get("image_base64", None)
-            
+        """
+
+        result = plate_detector.detect_plates(frame)
+        recognized_plates = result.get("recognized_plates", [])
+        encoded_image = result.get("base64_image", None)
+
+        if recognized_plates:
+            plate_data = recognized_plates[0][0]
         else:
-            logging.info("No plates detected")
-        # --- END CHANGE ---
+            plate_data = None
+
 
         # --- CHANGE: Prepare response with processed data ---
         response_data = OrderedDict([
@@ -140,7 +148,7 @@ if __name__ == '__main__':
     # host='0.0.0.0' makes the server accessible from other machines on the network
     # Use 'localhost' or '127.0.0.1' to only allow connections from the same machine
     # debug=True enables auto-reloading and detailed error pages (DON'T use in production)
-    #app.run(host='0.0.0.0', port=8000, debug=True)
-    app.run(host='localhost', port=8000, debug=True)
+    #app.run(host='localhost', port=8000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
 
     #app.run(host='192.168.1.109', port=5000, debug=True)

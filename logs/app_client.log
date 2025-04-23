@@ -249,3 +249,32 @@ requests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=800
 2025-04-17 13:05:59,683 - INFO - Received successful POST response.
 2025-04-17 13:05:59,695 - INFO - JSON saved successfully to 'client_get_it_babe_folder/56YE15412.json'
 2025-04-17 13:05:59,697 - INFO - Image saved successfully to 'client_get_it_babe_folder/56YE15412.jpg'
+2025-04-23 11:05:34,147 - INFO - Starting API Client for Image Processing...
+2025-04-23 11:05:34,148 - INFO - Sending POST request to: http://localhost:8000/process_plate
+2025-04-23 11:05:51,758 - ERROR - Error during POST request.
+Traceback (most recent call last):
+  File "E:\University\Semesters\Work\Tiva_Surveillance_API\client.py", line 83, in process_image_on_server
+    response.raise_for_status()
+  File "C:\Users\IT-Center\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:8000/process_plate
+2025-04-23 11:05:51,799 - WARNING - No valid JSON found in response.
+2025-04-23 11:06:46,442 - INFO - Starting API Client for Image Processing...
+2025-04-23 11:06:46,442 - INFO - Sending POST request to: http://localhost:8000/process_plate
+2025-04-23 11:07:05,300 - INFO - Received successful POST response.
+2025-04-23 11:07:05,302 - INFO - JSON saved successfully to 'client_get_it_babe_folder/None.json'
+2025-04-23 11:16:57,006 - INFO - Starting API Client for Image Processing...
+2025-04-23 11:16:57,006 - INFO - Sending POST request to: http://localhost:8000/process_plate
+2025-04-23 11:17:19,024 - INFO - Received successful POST response.
+2025-04-23 11:17:19,032 - INFO - JSON saved successfully to 'client_get_it_babe_folder/56YE15412.json'
+2025-04-23 11:17:19,035 - INFO - Image saved successfully to 'client_get_it_babe_folder/56YE15412.jpg'
+2025-04-23 12:09:00,689 - INFO - Starting API Client for Image Processing...
+2025-04-23 12:09:00,689 - INFO - Sending POST request to: http://localhost:8000/process_plate
+2025-04-23 12:09:21,119 - INFO - Received successful POST response.
+2025-04-23 12:09:21,130 - INFO - JSON saved successfully to 'client_get_it_babe_folder/56YE15412.json'
+2025-04-23 12:09:21,134 - INFO - Image saved successfully to 'client_get_it_babe_folder/56YE15412.jpg'
+2025-04-23 12:10:43,332 - INFO - Starting API Client for Image Processing...
+2025-04-23 12:10:43,333 - INFO - Sending POST request to: http://localhost:8000/process_plate
+2025-04-23 12:11:04,614 - INFO - Received successful POST response.
+2025-04-23 12:11:04,620 - INFO - JSON saved successfully to 'client_get_it_babe_folder/56YE15412.json'
+2025-04-23 12:11:04,623 - INFO - Image saved successfully to 'client_get_it_babe_folder/56YE15412.jpg'

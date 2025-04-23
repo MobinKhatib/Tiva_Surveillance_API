@@ -26,7 +26,7 @@ logging.basicConfig(
 )
 # ---------------------------------------------------------
 
-with open(r"E:\University\Semesters\Work\API_Main\assets\aks.json", "r") as f:
+with open(r"E:\University\Semesters\Work\Tiva_Surveillance_API\assets\aks.json", "r") as f:
     data = json.load(f)
     SAMPLE_IMAGE_BASE64 = data
 
