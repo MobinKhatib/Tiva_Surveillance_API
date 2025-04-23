@@ -2605,3 +2605,9 @@ TypeError: PlateDetector.reshape_persian_text() takes 1 positional argument but 
 2025-04-23 13:47:11,901 [INFO] Text drawing on frame completed.
 2025-04-23 13:47:11,908 [INFO] Watermarked frame generated for plate 56YE15412
 2025-04-23 13:47:11,978 [INFO] 192.168.1.109 - - [23/Apr/2025 13:47:11] "POST /process_plate HTTP/1.1" 200 -
+2025-04-23 14:32:47,986 [INFO] Logging system initialized.
+2025-04-23 14:32:48,075 [INFO]  plate.py logger is working!
+2025-04-23 14:32:48,076 [INFO] Initializing Plate Detector...
+2025-04-23 14:32:48,077 [INFO]  Starting: Car model loading
+2025-04-23 14:32:48,441 [ERROR]  Failed during: Car model loading | Error: [Errno 2] No such file or directory: 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\model\\best.pt'
+2025-04-23 14:32:48,446 [CRITICAL] FATAL ERROR: Could not initialize Plate Detector: [Errno 2] No such file or directory: 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\model\\best.pt'
