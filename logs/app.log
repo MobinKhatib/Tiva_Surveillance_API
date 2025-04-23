@@ -2258,3 +2258,350 @@ AttributeError: 'PlateDetector' object has no attribute 'watermark_frame'. Did y
 2025-04-23 12:11:42,714 [INFO] Plate Detector Initialized Successfully.
 2025-04-23 12:11:42,716 [INFO] Starting Flask server...
 2025-04-23 12:11:42,756 [WARNING]  * Debugger is active!
+2025-04-23 12:11:42,761 [INFO]  * Debugger PIN: 397-394-843
+2025-04-23 13:04:02,883 [INFO] Logging system initialized.
+2025-04-23 13:04:03,077 [INFO]  plate.py logger is working!
+2025-04-23 13:04:37,518 [INFO] Logging system initialized.
+2025-04-23 13:04:37,579 [INFO]  plate.py logger is working!
+2025-04-23 13:04:37,580 [INFO] Initializing Plate Detector...
+2025-04-23 13:04:37,581 [INFO]  Starting: Car model loading
+2025-04-23 13:04:38,824 [INFO]  Finished: Car model loading
+2025-04-23 13:04:38,827 [INFO]  Starting: Plate model loading
+2025-04-23 13:04:39,682 [INFO]  Finished: Plate model loading
+2025-04-23 13:04:39,682 [INFO]  Starting: Char model loading
+2025-04-23 13:04:40,230 [INFO]  Finished: Char model loading
+2025-04-23 13:04:40,238 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:04:40,322 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:04:40,433 [INFO] Starting Flask server...
+2025-04-23 13:04:40,571 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8000
+2025-04-23 13:04:40,571 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-23 13:04:40,575 [INFO]  * Restarting with stat
+2025-04-23 13:04:49,780 [INFO] Logging system initialized.
+2025-04-23 13:04:49,860 [INFO]  plate.py logger is working!
+2025-04-23 13:04:49,861 [INFO] Initializing Plate Detector...
+2025-04-23 13:04:49,862 [INFO]  Starting: Car model loading
+2025-04-23 13:04:50,739 [INFO]  Finished: Car model loading
+2025-04-23 13:04:50,740 [INFO]  Starting: Plate model loading
+2025-04-23 13:04:52,755 [INFO]  Finished: Plate model loading
+2025-04-23 13:04:52,764 [INFO]  Starting: Char model loading
+2025-04-23 13:04:53,094 [INFO]  Finished: Char model loading
+2025-04-23 13:04:53,096 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:04:53,100 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:04:53,170 [INFO] Starting Flask server...
+2025-04-23 13:04:53,243 [WARNING]  * Debugger is active!
+2025-04-23 13:04:53,265 [INFO]  * Debugger PIN: 397-394-843
+2025-04-23 13:04:59,944 [INFO] POST request received for /process_plate
+2025-04-23 13:04:59,950 [INFO] Received image data (timestamp: 1744620298.5438993)
+2025-04-23 13:05:00,002 [INFO] Decoded image shape: (720, 1280, 3)
+2025-04-23 13:05:00,004 [INFO]  Starting plate detection on frame.
+2025-04-23 13:05:13,908 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-04-23 13:05:13,909 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 500, 293)
+2025-04-23 13:05:15,859 [INFO] Formatting plate number with received characters: [(18, '5', 0.8741837739944458), (33, '6', 0.8810780048370361), (50, 'YE', 0.8753070831298828), (79, '1', 0.856508731842041), (93, '5', 0.8808082342147827), (108, '4', 0.8425222039222717), (130, '1', 0.755535900592804), (141, '2', 0.8354499936103821)]
+2025-04-23 13:05:15,863 [INFO] Final formatted plate: 56YE15412 with confidence: 0.85
+2025-04-23 13:05:15,864 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.85
+2025-04-23 13:05:15,865 [INFO] Character recognition completed on detected plates.
+2025-04-23 13:05:18,895 [INFO]  Starting watermarking for best frames.
+2025-04-23 13:05:22,648 [INFO] Creating overlay frame for watermarking.
+2025-04-23 13:05:22,681 [INFO] Overlay frame created successfully.
+2025-04-23 13:05:22,682 [INFO] Drawing text and metadata on frame.
+2025-04-23 13:05:22,715 [ERROR] Exception occurred in reshape_persian_text: PlateDetector.reshape_persian_text() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "E:\University\Semesters\Work\Tiva_Surveillance_API\logger.py", line 48, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: PlateDetector.reshape_persian_text() takes 1 positional argument but 2 were given
+2025-04-23 13:05:23,699 [INFO] 127.0.0.1 - - [23/Apr/2025 13:05:23] "[35m[1mPOST /process_plate HTTP/1.1[0m" 500 -
+2025-04-23 13:05:46,385 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-04-23 13:05:50,575 [INFO]  * Restarting with stat
+2025-04-23 13:05:59,028 [INFO] Logging system initialized.
+2025-04-23 13:05:59,100 [INFO]  plate.py logger is working!
+2025-04-23 13:05:59,102 [INFO] Initializing Plate Detector...
+2025-04-23 13:05:59,102 [INFO]  Starting: Car model loading
+2025-04-23 13:05:59,675 [INFO]  Finished: Car model loading
+2025-04-23 13:05:59,676 [INFO]  Starting: Plate model loading
+2025-04-23 13:05:59,999 [INFO]  Finished: Plate model loading
+2025-04-23 13:06:00,000 [INFO]  Starting: Char model loading
+2025-04-23 13:06:00,269 [INFO]  Finished: Char model loading
+2025-04-23 13:06:00,270 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:06:00,270 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:06:00,274 [INFO] Starting Flask server...
+2025-04-23 13:06:00,309 [WARNING]  * Debugger is active!
+2025-04-23 13:06:00,316 [INFO]  * Debugger PIN: 397-394-843
+2025-04-23 13:07:06,929 [INFO] POST request received for /process_plate
+2025-04-23 13:07:06,932 [INFO] Received image data (timestamp: 1744620298.5438993)
+2025-04-23 13:07:06,978 [INFO] Decoded image shape: (720, 1280, 3)
+2025-04-23 13:07:06,979 [INFO]  Starting plate detection on frame.
+2025-04-23 13:07:24,025 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-04-23 13:07:24,026 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 500, 293)
+2025-04-23 13:07:26,224 [INFO] Formatting plate number with received characters: [(18, '5', 0.8741837739944458), (33, '6', 0.8810780048370361), (50, 'YE', 0.8753070831298828), (79, '1', 0.856508731842041), (93, '5', 0.8808082342147827), (108, '4', 0.8425222039222717), (130, '1', 0.755535900592804), (141, '2', 0.8354499936103821)]
+2025-04-23 13:07:26,226 [INFO] Final formatted plate: 56YE15412 with confidence: 0.85
+2025-04-23 13:07:26,227 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.85
+2025-04-23 13:07:26,228 [INFO] Character recognition completed on detected plates.
+2025-04-23 13:07:30,183 [INFO]  Starting watermarking for best frames.
+2025-04-23 13:07:34,068 [INFO] Creating overlay frame for watermarking.
+2025-04-23 13:07:34,094 [INFO] Overlay frame created successfully.
+2025-04-23 13:07:34,097 [INFO] Drawing text and metadata on frame.
+2025-04-23 13:07:34,148 [INFO] Text drawing on frame completed.
+2025-04-23 13:07:34,150 [INFO] Watermarked frame generated for plate 56YE15412
+2025-04-23 13:07:34,167 [INFO] 127.0.0.1 - - [23/Apr/2025 13:07:34] "POST /process_plate HTTP/1.1" 200 -
+2025-04-23 13:08:39,976 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-04-23 13:08:42,194 [INFO]  * Restarting with stat
+2025-04-23 13:08:51,515 [INFO] Logging system initialized.
+2025-04-23 13:08:51,593 [INFO]  plate.py logger is working!
+2025-04-23 13:08:51,598 [INFO] Initializing Plate Detector...
+2025-04-23 13:08:51,599 [INFO]  Starting: Car model loading
+2025-04-23 13:08:52,230 [INFO]  Finished: Car model loading
+2025-04-23 13:08:52,231 [INFO]  Starting: Plate model loading
+2025-04-23 13:08:52,693 [INFO]  Finished: Plate model loading
+2025-04-23 13:08:52,694 [INFO]  Starting: Char model loading
+2025-04-23 13:08:52,953 [INFO]  Finished: Char model loading
+2025-04-23 13:08:52,955 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:08:52,956 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:08:52,967 [INFO] Starting Flask server...
+2025-04-23 13:08:53,030 [WARNING]  * Debugger is active!
+2025-04-23 13:08:53,039 [INFO]  * Debugger PIN: 397-394-843
+2025-04-23 13:09:02,006 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-04-23 13:09:02,862 [INFO]  * Restarting with stat
+2025-04-23 13:09:12,236 [INFO] Logging system initialized.
+2025-04-23 13:09:12,299 [INFO]  plate.py logger is working!
+2025-04-23 13:09:12,303 [INFO] Initializing Plate Detector...
+2025-04-23 13:09:12,304 [INFO]  Starting: Car model loading
+2025-04-23 13:09:12,737 [INFO]  Finished: Car model loading
+2025-04-23 13:09:12,738 [INFO]  Starting: Plate model loading
+2025-04-23 13:09:13,070 [INFO]  Finished: Plate model loading
+2025-04-23 13:09:13,071 [INFO]  Starting: Char model loading
+2025-04-23 13:09:13,271 [INFO]  Finished: Char model loading
+2025-04-23 13:09:13,272 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:09:13,273 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:09:13,277 [INFO] Starting Flask server...
+2025-04-23 13:09:13,312 [WARNING]  * Debugger is active!
+2025-04-23 13:09:13,322 [INFO]  * Debugger PIN: 397-394-843
+2025-04-23 13:09:17,226 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-04-23 13:09:18,122 [INFO]  * Restarting with stat
+2025-04-23 13:09:25,611 [INFO] Logging system initialized.
+2025-04-23 13:09:25,711 [INFO]  plate.py logger is working!
+2025-04-23 13:09:25,716 [INFO] Initializing Plate Detector...
+2025-04-23 13:09:25,718 [INFO]  Starting: Car model loading
+2025-04-23 13:09:26,850 [INFO]  Finished: Car model loading
+2025-04-23 13:09:26,851 [INFO]  Starting: Plate model loading
+2025-04-23 13:09:27,760 [INFO]  Finished: Plate model loading
+2025-04-23 13:09:27,761 [INFO]  Starting: Char model loading
+2025-04-23 13:09:27,936 [INFO]  Finished: Char model loading
+2025-04-23 13:09:27,938 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:09:27,939 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:09:27,943 [INFO] Starting Flask server...
+2025-04-23 13:09:27,978 [WARNING]  * Debugger is active!
+2025-04-23 13:09:27,983 [INFO]  * Debugger PIN: 397-394-843
+2025-04-23 13:11:55,434 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-04-23 13:11:57,487 [INFO]  * Restarting with stat
+2025-04-23 13:12:28,788 [INFO] Logging system initialized.
+2025-04-23 13:12:28,859 [INFO]  plate.py logger is working!
+2025-04-23 13:12:28,860 [INFO] Initializing Plate Detector...
+2025-04-23 13:12:28,860 [INFO]  Starting: Car model loading
+2025-04-23 13:12:29,257 [INFO]  Finished: Car model loading
+2025-04-23 13:12:29,258 [INFO]  Starting: Plate model loading
+2025-04-23 13:12:29,689 [INFO]  Finished: Plate model loading
+2025-04-23 13:12:29,689 [INFO]  Starting: Char model loading
+2025-04-23 13:12:29,844 [INFO]  Finished: Char model loading
+2025-04-23 13:12:29,844 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:12:29,845 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:12:29,847 [INFO] Starting Flask server...
+2025-04-23 13:12:29,911 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8000
+2025-04-23 13:12:29,912 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-23 13:12:29,914 [INFO]  * Restarting with stat
+2025-04-23 13:12:35,833 [INFO] Logging system initialized.
+2025-04-23 13:12:35,898 [INFO]  plate.py logger is working!
+2025-04-23 13:12:35,898 [INFO] Initializing Plate Detector...
+2025-04-23 13:12:35,899 [INFO]  Starting: Car model loading
+2025-04-23 13:12:36,332 [INFO]  Finished: Car model loading
+2025-04-23 13:12:36,332 [INFO]  Starting: Plate model loading
+2025-04-23 13:12:37,263 [INFO]  Finished: Plate model loading
+2025-04-23 13:12:37,264 [INFO]  Starting: Char model loading
+2025-04-23 13:12:37,586 [INFO]  Finished: Char model loading
+2025-04-23 13:12:37,587 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:12:37,588 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:12:37,592 [INFO] Starting Flask server...
+2025-04-23 13:12:37,734 [WARNING]  * Debugger is active!
+2025-04-23 13:12:37,742 [INFO]  * Debugger PIN: 397-394-843
+2025-04-23 13:12:55,049 [INFO] POST request received for /process_plate
+2025-04-23 13:12:55,052 [INFO] Received image data (timestamp: 1744620298.5438993)
+2025-04-23 13:12:55,091 [INFO] Decoded image shape: (720, 1280, 3)
+2025-04-23 13:12:55,093 [INFO]  Starting plate detection on frame.
+2025-04-23 13:13:09,711 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-04-23 13:13:09,713 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 500, 293)
+2025-04-23 13:13:11,198 [INFO] Formatting plate number with received characters: [(18, '5', 0.8741837739944458), (33, '6', 0.8810780048370361), (50, 'YE', 0.8753070831298828), (79, '1', 0.856508731842041), (93, '5', 0.8808082342147827), (108, '4', 0.8425222039222717), (130, '1', 0.755535900592804), (141, '2', 0.8354499936103821)]
+2025-04-23 13:13:11,202 [INFO] Final formatted plate: 56YE15412 with confidence: 0.85
+2025-04-23 13:13:11,208 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.85
+2025-04-23 13:13:11,210 [INFO] Character recognition completed on detected plates.
+2025-04-23 13:13:14,261 [INFO]  Starting watermarking for best frames.
+2025-04-23 13:13:17,205 [INFO] Creating overlay frame for watermarking.
+2025-04-23 13:13:17,227 [INFO] Overlay frame created successfully.
+2025-04-23 13:13:17,228 [INFO] Drawing text and metadata on frame.
+2025-04-23 13:13:17,291 [INFO] Text drawing on frame completed.
+2025-04-23 13:13:17,293 [INFO] Watermarked frame generated for plate 56YE15412
+2025-04-23 13:13:17,323 [INFO] 127.0.0.1 - - [23/Apr/2025 13:13:17] "POST /process_plate HTTP/1.1" 200 -
+2025-04-23 13:13:41,601 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-04-23 13:13:45,017 [INFO]  * Restarting with stat
+2025-04-23 13:14:52,400 [INFO] Logging system initialized.
+2025-04-23 13:14:52,469 [INFO]  plate.py logger is working!
+2025-04-23 13:14:52,470 [INFO] Initializing Plate Detector...
+2025-04-23 13:14:52,471 [INFO]  Starting: Car model loading
+2025-04-23 13:14:53,056 [INFO]  Finished: Car model loading
+2025-04-23 13:14:53,056 [INFO]  Starting: Plate model loading
+2025-04-23 13:14:53,378 [INFO]  Finished: Plate model loading
+2025-04-23 13:14:53,378 [INFO]  Starting: Char model loading
+2025-04-23 13:14:53,633 [INFO]  Finished: Char model loading
+2025-04-23 13:14:53,634 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:14:53,634 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:14:53,637 [INFO] Starting Flask server...
+2025-04-23 13:14:53,712 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8000
+2025-04-23 13:14:53,713 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-23 13:14:53,722 [INFO]  * Restarting with stat
+2025-04-23 13:14:59,717 [INFO] Logging system initialized.
+2025-04-23 13:14:59,784 [INFO]  plate.py logger is working!
+2025-04-23 13:14:59,785 [INFO] Initializing Plate Detector...
+2025-04-23 13:14:59,785 [INFO]  Starting: Car model loading
+2025-04-23 13:15:00,200 [INFO]  Finished: Car model loading
+2025-04-23 13:15:00,200 [INFO]  Starting: Plate model loading
+2025-04-23 13:15:00,535 [INFO]  Finished: Plate model loading
+2025-04-23 13:15:00,536 [INFO]  Starting: Char model loading
+2025-04-23 13:15:00,867 [INFO]  Finished: Char model loading
+2025-04-23 13:15:00,868 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:15:00,869 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:15:00,873 [INFO] Starting Flask server...
+2025-04-23 13:15:00,944 [WARNING]  * Debugger is active!
+2025-04-23 13:15:00,975 [INFO]  * Debugger PIN: 397-394-843
+2025-04-23 13:15:31,383 [INFO] POST request received for /process_plate
+2025-04-23 13:15:31,385 [INFO] Received image data (timestamp: 1744620298.5438993)
+2025-04-23 13:15:31,396 [INFO] Decoded image shape: (720, 1280, 3)
+2025-04-23 13:15:31,397 [INFO]  Starting plate detection on frame.
+2025-04-23 13:15:43,323 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-04-23 13:15:43,324 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 500, 293)
+2025-04-23 13:15:44,876 [INFO] Formatting plate number with received characters: [(18, '5', 0.8741837739944458), (33, '6', 0.8810780048370361), (50, 'YE', 0.8753070831298828), (79, '1', 0.856508731842041), (93, '5', 0.8808082342147827), (108, '4', 0.8425222039222717), (130, '1', 0.755535900592804), (141, '2', 0.8354499936103821)]
+2025-04-23 13:15:44,877 [INFO] Final formatted plate: 56YE15412 with confidence: 0.85
+2025-04-23 13:15:44,878 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.85
+2025-04-23 13:15:44,879 [INFO] Character recognition completed on detected plates.
+2025-04-23 13:15:48,470 [INFO]  Starting watermarking for best frames.
+2025-04-23 13:15:51,858 [INFO] Creating overlay frame for watermarking.
+2025-04-23 13:15:51,866 [INFO] Overlay frame created successfully.
+2025-04-23 13:15:51,867 [INFO] Drawing text and metadata on frame.
+2025-04-23 13:15:51,925 [INFO] Text drawing on frame completed.
+2025-04-23 13:15:51,928 [INFO] Watermarked frame generated for plate 56YE15412
+2025-04-23 13:15:51,948 [INFO] 127.0.0.1 - - [23/Apr/2025 13:15:51] "POST /process_plate HTTP/1.1" 200 -
+2025-04-23 13:16:13,262 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-04-23 13:16:14,936 [INFO]  * Restarting with stat
+2025-04-23 13:16:23,211 [INFO] Logging system initialized.
+2025-04-23 13:16:23,281 [INFO]  plate.py logger is working!
+2025-04-23 13:16:23,282 [INFO] Initializing Plate Detector...
+2025-04-23 13:16:23,284 [INFO]  Starting: Car model loading
+2025-04-23 13:16:23,908 [INFO]  Finished: Car model loading
+2025-04-23 13:16:23,909 [INFO]  Starting: Plate model loading
+2025-04-23 13:16:24,258 [INFO]  Finished: Plate model loading
+2025-04-23 13:16:24,259 [INFO]  Starting: Char model loading
+2025-04-23 13:16:25,296 [INFO]  Finished: Char model loading
+2025-04-23 13:16:25,409 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:16:25,594 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:16:25,639 [INFO] Starting Flask server...
+2025-04-23 13:16:25,737 [WARNING]  * Debugger is active!
+2025-04-23 13:16:25,846 [INFO]  * Debugger PIN: 397-394-843
+2025-04-23 13:29:03,046 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\server.py', reloading
+2025-04-23 13:29:04,228 [INFO]  * Restarting with stat
+2025-04-23 13:29:12,573 [INFO] Logging system initialized.
+2025-04-23 13:29:12,634 [INFO]  plate.py logger is working!
+2025-04-23 13:29:12,635 [INFO] Initializing Plate Detector...
+2025-04-23 13:29:12,636 [INFO]  Starting: Car model loading
+2025-04-23 13:29:13,209 [INFO]  Finished: Car model loading
+2025-04-23 13:29:13,210 [INFO]  Starting: Plate model loading
+2025-04-23 13:29:13,507 [INFO]  Finished: Plate model loading
+2025-04-23 13:29:13,508 [INFO]  Starting: Char model loading
+2025-04-23 13:29:13,748 [INFO]  Finished: Char model loading
+2025-04-23 13:29:13,749 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:29:13,749 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:29:13,752 [INFO] Starting Flask server...
+2025-04-23 13:29:13,791 [WARNING]  * Debugger is active!
+2025-04-23 13:29:13,799 [INFO]  * Debugger PIN: 397-394-843
+2025-04-23 13:32:22,602 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\server.py', reloading
+2025-04-23 13:32:23,541 [INFO]  * Restarting with stat
+2025-04-23 13:32:31,932 [INFO] Logging system initialized.
+2025-04-23 13:32:31,999 [INFO]  plate.py logger is working!
+2025-04-23 13:32:32,000 [INFO] Initializing Plate Detector...
+2025-04-23 13:32:32,001 [INFO]  Starting: Car model loading
+2025-04-23 13:32:32,584 [INFO]  Finished: Car model loading
+2025-04-23 13:32:32,585 [INFO]  Starting: Plate model loading
+2025-04-23 13:32:32,898 [INFO]  Finished: Plate model loading
+2025-04-23 13:32:32,898 [INFO]  Starting: Char model loading
+2025-04-23 13:32:33,141 [INFO]  Finished: Char model loading
+2025-04-23 13:32:33,141 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:32:33,142 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:32:33,146 [INFO] Starting Flask server...
+2025-04-23 13:32:33,175 [WARNING]  * Debugger is active!
+2025-04-23 13:32:33,186 [INFO]  * Debugger PIN: 397-394-843
+2025-04-23 13:36:55,072 [INFO] Logging system initialized.
+2025-04-23 13:36:55,144 [INFO]  plate.py logger is working!
+2025-04-23 13:36:55,145 [INFO] Initializing Plate Detector...
+2025-04-23 13:36:55,145 [INFO]  Starting: Car model loading
+2025-04-23 13:36:55,691 [INFO]  Finished: Car model loading
+2025-04-23 13:36:55,691 [INFO]  Starting: Plate model loading
+2025-04-23 13:36:55,988 [INFO]  Finished: Plate model loading
+2025-04-23 13:36:55,989 [INFO]  Starting: Char model loading
+2025-04-23 13:36:56,258 [INFO]  Finished: Char model loading
+2025-04-23 13:36:56,259 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:36:56,259 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:36:56,262 [INFO] Starting Flask server...
+2025-04-23 13:36:58,897 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.109:5000
+2025-04-23 13:36:58,899 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-23 13:36:58,902 [INFO]  * Restarting with stat
+2025-04-23 13:37:05,338 [INFO] Logging system initialized.
+2025-04-23 13:37:05,399 [INFO]  plate.py logger is working!
+2025-04-23 13:37:05,399 [INFO] Initializing Plate Detector...
+2025-04-23 13:37:05,400 [INFO]  Starting: Car model loading
+2025-04-23 13:37:06,778 [INFO]  Finished: Car model loading
+2025-04-23 13:37:06,780 [INFO]  Starting: Plate model loading
+2025-04-23 13:37:07,370 [INFO]  Finished: Plate model loading
+2025-04-23 13:37:07,370 [INFO]  Starting: Char model loading
+2025-04-23 13:37:07,661 [INFO]  Finished: Char model loading
+2025-04-23 13:37:07,677 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 13:37:07,712 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 13:37:07,805 [INFO] Starting Flask server...
+2025-04-23 13:37:07,870 [WARNING]  * Debugger is active!
+2025-04-23 13:37:07,880 [INFO]  * Debugger PIN: 397-394-843
+2025-04-23 13:37:20,532 [INFO] POST request received for /process_plate
+2025-04-23 13:37:20,538 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-04-23 13:37:20,588 [INFO] Decoded image shape: (720, 1280, 3)
+2025-04-23 13:37:20,589 [INFO]  Starting plate detection on frame.
+2025-04-23 13:37:39,116 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-04-23 13:37:39,117 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 500, 293)
+2025-04-23 13:37:41,552 [INFO] Formatting plate number with received characters: [(18, '5', 0.8741837739944458), (33, '6', 0.8810780048370361), (50, 'YE', 0.8753070831298828), (79, '1', 0.856508731842041), (93, '5', 0.8808082342147827), (108, '4', 0.8425222039222717), (130, '1', 0.755535900592804), (141, '2', 0.8354499936103821)]
+2025-04-23 13:37:41,556 [INFO] Final formatted plate: 56YE15412 with confidence: 0.85
+2025-04-23 13:37:41,557 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.85
+2025-04-23 13:37:41,558 [INFO] Character recognition completed on detected plates.
+2025-04-23 13:37:47,921 [INFO]  Starting watermarking for best frames.
+2025-04-23 13:37:57,815 [INFO] Creating overlay frame for watermarking.
+2025-04-23 13:37:57,830 [INFO] Overlay frame created successfully.
+2025-04-23 13:37:57,832 [INFO] Drawing text and metadata on frame.
+2025-04-23 13:37:57,971 [INFO] Text drawing on frame completed.
+2025-04-23 13:37:57,979 [INFO] Watermarked frame generated for plate 56YE15412
+2025-04-23 13:37:58,032 [INFO] 192.168.1.109 - - [23/Apr/2025 13:37:58] "POST /process_plate HTTP/1.1" 200 -
+2025-04-23 13:46:42,784 [INFO] POST request received for /process_plate
+2025-04-23 13:46:42,787 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-04-23 13:46:42,799 [INFO] Decoded image shape: (720, 1280, 3)
+2025-04-23 13:46:42,800 [INFO]  Starting plate detection on frame.
+2025-04-23 13:46:59,791 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-04-23 13:46:59,823 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 500, 293)
+2025-04-23 13:47:01,911 [INFO] Formatting plate number with received characters: [(18, '5', 0.8741837739944458), (33, '6', 0.8810780048370361), (50, 'YE', 0.8753070831298828), (79, '1', 0.856508731842041), (93, '5', 0.8808082342147827), (108, '4', 0.8425222039222717), (130, '1', 0.755535900592804), (141, '2', 0.8354499936103821)]
+2025-04-23 13:47:01,913 [INFO] Final formatted plate: 56YE15412 with confidence: 0.85
+2025-04-23 13:47:01,914 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.85
+2025-04-23 13:47:01,915 [INFO] Character recognition completed on detected plates.
+2025-04-23 13:47:06,133 [INFO]  Starting watermarking for best frames.
+2025-04-23 13:47:11,308 [INFO] Creating overlay frame for watermarking.
+2025-04-23 13:47:11,757 [INFO] Overlay frame created successfully.
+2025-04-23 13:47:11,759 [INFO] Drawing text and metadata on frame.
+2025-04-23 13:47:11,901 [INFO] Text drawing on frame completed.
+2025-04-23 13:47:11,908 [INFO] Watermarked frame generated for plate 56YE15412
+2025-04-23 13:47:11,978 [INFO] 192.168.1.109 - - [23/Apr/2025 13:47:11] "POST /process_plate HTTP/1.1" 200 -
