@@ -2611,3 +2611,53 @@ TypeError: PlateDetector.reshape_persian_text() takes 1 positional argument but 
 2025-04-23 14:32:48,077 [INFO]  Starting: Car model loading
 2025-04-23 14:32:48,441 [ERROR]  Failed during: Car model loading | Error: [Errno 2] No such file or directory: 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\model\\best.pt'
 2025-04-23 14:32:48,446 [CRITICAL] FATAL ERROR: Could not initialize Plate Detector: [Errno 2] No such file or directory: 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\model\\best.pt'
+2025-04-23 14:35:13,202 [INFO] Logging system initialized.
+2025-04-23 14:35:13,257 [INFO]  plate.py logger is working!
+2025-04-23 14:35:13,258 [INFO] Initializing Plate Detector...
+2025-04-23 14:35:13,259 [INFO]  Starting: Car model loading
+2025-04-23 14:35:13,921 [INFO]  Finished: Car model loading
+2025-04-23 14:35:13,924 [INFO]  Starting: Plate model loading
+2025-04-23 14:35:14,598 [INFO]  Finished: Plate model loading
+2025-04-23 14:35:14,600 [INFO]  Starting: Char model loading
+2025-04-23 14:35:14,881 [INFO]  Finished: Char model loading
+2025-04-23 14:35:14,882 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 14:35:14,883 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 14:35:14,892 [INFO] Starting Flask server...
+2025-04-23 14:35:15,928 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.109:5000
+2025-04-23 14:35:15,937 [INFO] [33mPress CTRL+C to quit[0m
+2025-04-23 14:35:15,942 [INFO]  * Restarting with stat
+2025-04-23 14:35:25,010 [INFO] Logging system initialized.
+2025-04-23 14:35:25,099 [INFO]  plate.py logger is working!
+2025-04-23 14:35:25,100 [INFO] Initializing Plate Detector...
+2025-04-23 14:35:25,101 [INFO]  Starting: Car model loading
+2025-04-23 14:35:25,825 [INFO]  Finished: Car model loading
+2025-04-23 14:35:25,827 [INFO]  Starting: Plate model loading
+2025-04-23 14:35:27,042 [INFO]  Finished: Plate model loading
+2025-04-23 14:35:27,059 [INFO]  Starting: Char model loading
+2025-04-23 14:35:28,234 [INFO]  Finished: Char model loading
+2025-04-23 14:35:28,237 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-04-23 14:35:28,239 [INFO] Plate Detector Initialized Successfully.
+2025-04-23 14:35:28,287 [INFO] Starting Flask server...
+2025-04-23 14:35:28,384 [WARNING]  * Debugger is active!
+2025-04-23 14:35:28,401 [INFO]  * Debugger PIN: 397-394-843
+2025-04-23 14:37:06,097 [INFO] POST request received for /process_plate
+2025-04-23 14:37:06,107 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-04-23 14:37:06,216 [INFO] Decoded image shape: (720, 1280, 3)
+2025-04-23 14:37:06,218 [INFO]  Starting plate detection on frame.
+2025-04-23 14:37:29,988 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-04-23 14:37:29,995 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 500, 293)
+2025-04-23 14:37:33,651 [INFO] Formatting plate number with received characters: [(18, '5', 0.8741837739944458), (33, '6', 0.8810780048370361), (50, 'YE', 0.8753070831298828), (79, '1', 0.856508731842041), (93, '5', 0.8808082342147827), (108, '4', 0.8425222039222717), (130, '1', 0.755535900592804), (141, '2', 0.8354499936103821)]
+2025-04-23 14:37:33,663 [INFO] Final formatted plate: 56YE15412 with confidence: 0.85
+2025-04-23 14:37:33,665 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.85
+2025-04-23 14:37:33,667 [INFO] Character recognition completed on detected plates.
+2025-04-23 14:37:41,284 [INFO]  Starting watermarking for best frames.
+2025-04-23 14:37:45,276 [INFO] Creating overlay frame for watermarking.
+2025-04-23 14:37:45,310 [INFO] Overlay frame created successfully.
+2025-04-23 14:37:45,312 [INFO] Drawing text and metadata on frame.
+2025-04-23 14:37:45,414 [INFO] Text drawing on frame completed.
+2025-04-23 14:37:45,416 [INFO] Watermarked frame generated for plate 56YE15412
+2025-04-23 14:37:45,481 [INFO] 192.168.1.109 - - [23/Apr/2025 14:37:45] "POST /process_plate HTTP/1.1" 200 -
+2025-04-23 14:38:26,900 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\server.py', reloading
