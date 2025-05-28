@@ -2,7 +2,7 @@
 
 These repositories showcase two examples of our work, each designed to operate in different deployment scenarios.
 
-At our company, we work with a specialized camera system that captures individual frames — each containing exactly one vehicle. The workflow is structured as follows:
+At our company, we work with a specialized camera system that captures individual frames — each containing exactly one vehicle. The workflow is structured as follows:::
 
 - **Client Integration:**
   - Clients send data to our system via API.
