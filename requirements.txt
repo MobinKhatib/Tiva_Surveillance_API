@@ -1,0 +1,67 @@
+# -------------------------------
+# Core Framework & Web API
+# -------------------------------
+Flask>=2.2.5
+requests>=2.32.3
+
+# -------------------------------
+# Deep Learning / Detection
+# -------------------------------
+ultralytics>=8.3.89
+opencv-python>=4.11.0.86
+
+# -------------------------------
+# Numerical & Image Processing
+# -------------------------------
+numpy>=2.1.1
+Pillow>=11.1.0
+
+# -------------------------------
+# Date & Time Handling
+# -------------------------------
+persiantools>=5.2.0
+
+# -------------------------------
+# Text Rendering & Bidi Support
+# -------------------------------
+arabic-reshaper>=3.0.0
+python-bidi>=0.6.6
+
+# -------------------------------
+# Windows Services & System
+# -------------------------------
+pywin32>=310
+psutil>=7.0.0
+
+# -------------------------------
+# Optional / Not Currently Used
+# (Commented out - may be used in future)
+# -------------------------------
+# matplotlib>=3.10.1
+# seaborn>=0.13.2
+# pandas>=2.2.3
+# scipy>=1.15.2
+# fonttools>=4.56.0
+# jinja2>=3.1.6
+# MarkupSafe>=3.0.2
+# certifi>=2025.1.31
+# charset-normalizer>=3.4.1
+# idna>=3.10
+# urllib3>=2.3.0
+# packaging>=24.2
+# pyparsing>=3.2.1
+# python-dateutil>=2.9.0.post0
+# pytz>=2025.1
+# tzdata>=2025.1
+# tqdm>=4.67.1
+# colorama>=0.4.6
+# cycler>=0.12.1
+# kiwisolver>=1.4.8
+# sympy>=1.13.1
+# networkx>=3.4.2
+# fsspec>=2025.3.0
+# filelock>=3.17.0
+# setuptools>=76.0.0
+# six>=1.17.0
+# py_cpuinfo>=9.0.0
+# ultralytics_thop>=2.0.14

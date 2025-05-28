@@ -1,20 +1,27 @@
 import logging
 import os
 from logging.handlers import RotatingFileHandler
-import signal
 import sys
 import atexit
 from contextlib import contextmanager
-
+import config
 atexit.register(logging.shutdown)  # Ensures logs are saved before exit
 
 log_dir = "logs"
 os.makedirs(log_dir, exist_ok=True)
 log_file = os.path.join(log_dir, "app.log")
 
+# Get the string level from config.py and convert it to the logging constant
+level_str = config.LEVEL.upper()  # Ensure it's in uppercase
+level = getattr(logging, level_str, logging.INFO)  # Default to INFO if invalid
+
+# Set up the logger
+logger = logging.getLogger(__name__)
+logger.setLevel(level)
+
 # Configure logging with rotation
 logging.basicConfig(
-    level=logging.INFO, # logging.INFO,  
+    level=level,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
         RotatingFileHandler(log_file, mode="a", maxBytes=10*1024*1024, backupCount=5),  # 10MB per file, keep 5 backups (when all become full the first one is deleted)

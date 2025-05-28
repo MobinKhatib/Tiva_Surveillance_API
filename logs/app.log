@@ -3601,3 +3601,1713 @@ AttributeError: module 'config' has no attribute 'Ena'
 2025-04-28 14:20:03,147 [INFO] Character recognition completed on detected plates.
 2025-04-28 14:20:03,148 [INFO]  Starting processing for best frames.
 2025-04-28 14:20:03,157 [INFO] 192.168.1.45 - - [28/Apr/2025 14:20:03] "POST /process_plate HTTP/1.1" 200 -
+2025-05-04 11:20:29,530 [INFO] Logging system initialized.
+2025-05-04 11:20:29,673 [INFO]  plate.py logger is working!
+2025-05-04 11:20:29,689 [INFO] Initializing Plate Detector...
+2025-05-04 11:20:29,689 [INFO]  Starting: Car model loading
+2025-05-04 11:20:29,855 [INFO]  Finished: Car model loading
+2025-05-04 11:20:29,855 [INFO]  Starting: Plate model loading
+2025-05-04 11:20:30,117 [INFO]  Finished: Plate model loading
+2025-05-04 11:20:30,117 [INFO]  Starting: Char model loading
+2025-05-04 11:20:30,440 [INFO]  Finished: Char model loading
+2025-05-04 11:20:30,440 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-04 11:20:30,455 [INFO] Plate Detector Initialized Successfully.
+2025-05-04 11:20:30,455 [INFO] Starting Flask server...
+2025-05-04 11:20:38,578 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-05-04 11:20:38,578 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-04 11:20:38,607 [INFO]  * Restarting with stat
+2025-05-04 11:20:48,809 [INFO] Logging system initialized.
+2025-05-04 11:20:48,915 [INFO]  plate.py logger is working!
+2025-05-04 11:20:48,915 [INFO] Initializing Plate Detector...
+2025-05-04 11:20:48,915 [INFO]  Starting: Car model loading
+2025-05-04 11:20:49,046 [INFO]  Finished: Car model loading
+2025-05-04 11:20:49,046 [INFO]  Starting: Plate model loading
+2025-05-04 11:20:49,378 [INFO]  Finished: Plate model loading
+2025-05-04 11:20:49,378 [INFO]  Starting: Char model loading
+2025-05-04 11:20:49,672 [INFO]  Finished: Char model loading
+2025-05-04 11:20:49,672 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-04 11:20:49,672 [INFO] Plate Detector Initialized Successfully.
+2025-05-04 11:20:49,672 [INFO] Starting Flask server...
+2025-05-04 11:20:49,760 [WARNING]  * Debugger is active!
+2025-05-04 11:20:49,820 [INFO]  * Debugger PIN: 397-394-843
+2025-05-04 11:22:17,619 [INFO] POST request received for /process_plate
+2025-05-04 11:22:17,631 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-04 11:22:17,728 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-04 11:22:17,729 [INFO]  Starting plate detection on frame.
+2025-05-04 11:22:23,243 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-04 11:22:23,247 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-04 11:22:26,086 [INFO] Formatting plate number with received characters: [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-04 11:22:26,087 [INFO] Final formatted plate: 56YE15412 with confidence: 0.85
+2025-05-04 11:22:26,088 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.85
+2025-05-04 11:22:26,089 [INFO] Character recognition completed on detected plates.
+2025-05-04 11:22:26,094 [INFO]  Starting processing for best frames.
+2025-05-04 11:22:26,136 [INFO] 192.168.1.108 - - [04/May/2025 11:22:26] "POST /process_plate HTTP/1.1" 200 -
+2025-05-04 11:24:18,495 [INFO] POST request received for /process_plate
+2025-05-04 11:24:18,496 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-04 11:24:18,510 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-04 11:24:18,511 [INFO]  Starting plate detection on frame.
+2025-05-04 11:24:19,625 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-04 11:24:19,626 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-04 11:24:20,571 [INFO] Formatting plate number with received characters: [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-04 11:24:20,573 [INFO] Final formatted plate: 56YE15412 with confidence: 0.85
+2025-05-04 11:24:20,574 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.85
+2025-05-04 11:24:20,575 [INFO] Character recognition completed on detected plates.
+2025-05-04 11:24:20,580 [INFO]  Starting processing for best frames.
+2025-05-04 11:24:20,597 [INFO] 192.168.1.108 - - [04/May/2025 11:24:20] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:42:38,450 [INFO] Logging system initialized.
+2025-05-05 12:42:38,614 [INFO]  plate.py logger is working!
+2025-05-05 12:42:38,615 [INFO] Initializing Plate Detector...
+2025-05-05 12:42:38,616 [INFO]  Starting: Car model loading
+2025-05-05 12:42:38,833 [INFO]  Finished: Car model loading
+2025-05-05 12:42:38,835 [INFO]  Starting: Plate model loading
+2025-05-05 12:42:39,246 [INFO]  Finished: Plate model loading
+2025-05-05 12:42:39,246 [INFO]  Starting: Char model loading
+2025-05-05 12:42:39,466 [INFO]  Finished: Char model loading
+2025-05-05 12:42:39,467 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 12:42:39,468 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 12:42:39,474 [INFO] Starting Flask server...
+2025-05-05 12:42:40,544 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-05-05 12:42:40,549 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-05 12:42:40,553 [INFO]  * Restarting with stat
+2025-05-05 12:42:49,066 [INFO] Logging system initialized.
+2025-05-05 12:42:49,202 [INFO]  plate.py logger is working!
+2025-05-05 12:42:49,207 [INFO] Initializing Plate Detector...
+2025-05-05 12:42:49,209 [INFO]  Starting: Car model loading
+2025-05-05 12:42:49,418 [INFO]  Finished: Car model loading
+2025-05-05 12:42:49,419 [INFO]  Starting: Plate model loading
+2025-05-05 12:42:49,844 [INFO]  Finished: Plate model loading
+2025-05-05 12:42:49,845 [INFO]  Starting: Char model loading
+2025-05-05 12:42:50,025 [INFO]  Finished: Char model loading
+2025-05-05 12:42:50,026 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 12:42:50,027 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 12:42:50,030 [INFO] Starting Flask server...
+2025-05-05 12:42:50,096 [WARNING]  * Debugger is active!
+2025-05-05 12:42:50,115 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 12:42:53,290 [INFO] POST request received for /process_plate
+2025-05-05 12:42:53,312 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-05 12:42:53,392 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:42:53,458 [INFO]  Starting plate detection on frame.
+2025-05-05 12:43:01,176 [DEBUG] Detected plate box: (416, 272, 499, 292)
+2025-05-05 12:43:01,177 [DEBUG] Plate matched to vehicle ID: 0 with distance: 126.00
+2025-05-05 12:43:01,178 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:43:01,180 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:43:01,182 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:43:01,970 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179)]
+2025-05-05 12:43:01,976 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855)]
+2025-05-05 12:43:01,994 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513)]
+2025-05-05 12:43:01,997 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103)]
+2025-05-05 12:43:01,998 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112)]
+2025-05-05 12:43:02,000 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073)]
+2025-05-05 12:43:02,001 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114)]
+2025-05-05 12:43:02,002 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:43:02,010 [DEBUG] Sending characters to formatter.
+2025-05-05 12:43:02,049 [INFO] Formatting plate number with received characters: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:43:02,057 [DEBUG] Raw input characters (x1, char, conf): [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:43:02,099 [DEBUG] Characters sorted by confidence: [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:43:02,101 [DEBUG] Characters sorted by x1 position: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:43:02,102 [DEBUG] Selected letter for 3rd slot: YE (confidence: 0.55)
+2025-05-05 12:43:02,114 [INFO] Final formatted plate: 56YE15412 with confidence: 0.83
+2025-05-05 12:43:02,118 [DEBUG] Formatted plate string: 56YE15412
+2025-05-05 12:43:02,135 [DEBUG] Average confidence: 0.83
+2025-05-05 12:43:02,148 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.83
+2025-05-05 12:43:02,151 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:43:02,181 [INFO]  Starting processing for best frames.
+2025-05-05 12:43:02,684 [DEBUG] Encode frame to base64.
+2025-05-05 12:43:02,694 [INFO] 192.168.1.108 - - [05/May/2025 12:43:02] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:43:12,638 [INFO] POST request received for /process_plate
+2025-05-05 12:43:12,639 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-05 12:43:12,666 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:43:12,688 [INFO]  Starting plate detection on frame.
+2025-05-05 12:43:14,538 [DEBUG] Detected plate box: (416, 272, 499, 292)
+2025-05-05 12:43:14,539 [DEBUG] Plate matched to vehicle ID: 0 with distance: 126.00
+2025-05-05 12:43:14,542 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:43:14,543 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:43:14,546 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:43:14,979 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179)]
+2025-05-05 12:43:14,980 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855)]
+2025-05-05 12:43:14,985 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513)]
+2025-05-05 12:43:14,986 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103)]
+2025-05-05 12:43:14,987 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112)]
+2025-05-05 12:43:14,990 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073)]
+2025-05-05 12:43:14,998 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114)]
+2025-05-05 12:43:15,003 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:43:15,004 [DEBUG] Sending characters to formatter.
+2025-05-05 12:43:15,006 [INFO] Formatting plate number with received characters: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:43:15,099 [DEBUG] Raw input characters (x1, char, conf): [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:43:15,101 [DEBUG] Characters sorted by confidence: [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:43:15,153 [DEBUG] Characters sorted by x1 position: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:43:15,203 [DEBUG] Selected letter for 3rd slot: YE (confidence: 0.55)
+2025-05-05 12:43:15,211 [INFO] Final formatted plate: 56YE15412 with confidence: 0.83
+2025-05-05 12:43:15,214 [DEBUG] Formatted plate string: 56YE15412
+2025-05-05 12:43:15,216 [DEBUG] Average confidence: 0.83
+2025-05-05 12:43:15,217 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.83
+2025-05-05 12:43:15,219 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:43:15,252 [INFO]  Starting processing for best frames.
+2025-05-05 12:43:15,310 [DEBUG] Encode frame to base64.
+2025-05-05 12:43:15,320 [INFO] 192.168.1.108 - - [05/May/2025 12:43:15] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:44:04,357 [INFO] POST request received for /process_plate
+2025-05-05 12:44:04,358 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-05 12:44:04,366 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:44:04,368 [INFO]  Starting plate detection on frame.
+2025-05-05 12:44:05,134 [DEBUG] Detected plate box: (416, 272, 499, 292)
+2025-05-05 12:44:05,135 [DEBUG] Plate matched to vehicle ID: 0 with distance: 126.00
+2025-05-05 12:44:05,136 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:44:05,136 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:44:05,139 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:44:05,342 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179)]
+2025-05-05 12:44:05,343 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855)]
+2025-05-05 12:44:05,344 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513)]
+2025-05-05 12:44:05,347 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103)]
+2025-05-05 12:44:05,348 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:05,349 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073)]
+2025-05-05 12:44:05,350 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114)]
+2025-05-05 12:44:05,351 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:44:05,352 [DEBUG] Sending characters to formatter.
+2025-05-05 12:44:05,360 [INFO] Formatting plate number with received characters: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:05,361 [DEBUG] Raw input characters (x1, char, conf): [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:05,368 [DEBUG] Characters sorted by confidence: [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:44:05,369 [DEBUG] Characters sorted by x1 position: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:05,376 [DEBUG] Selected letter for 3rd slot: YE (confidence: 0.55)
+2025-05-05 12:44:05,383 [INFO] Final formatted plate: 56YE15412 with confidence: 0.83
+2025-05-05 12:44:05,384 [DEBUG] Formatted plate string: 56YE15412
+2025-05-05 12:44:05,385 [DEBUG] Average confidence: 0.83
+2025-05-05 12:44:05,385 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.83
+2025-05-05 12:44:05,386 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:44:05,399 [INFO]  Starting processing for best frames.
+2025-05-05 12:44:05,437 [DEBUG] Encode frame to base64.
+2025-05-05 12:44:05,444 [INFO] 192.168.1.108 - - [05/May/2025 12:44:05] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:44:08,652 [INFO] POST request received for /process_plate
+2025-05-05 12:44:08,653 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-05 12:44:08,662 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:44:08,663 [INFO]  Starting plate detection on frame.
+2025-05-05 12:44:09,330 [DEBUG] Detected plate box: (416, 272, 499, 292)
+2025-05-05 12:44:09,331 [DEBUG] Plate matched to vehicle ID: 0 with distance: 126.00
+2025-05-05 12:44:09,332 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:44:09,332 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:44:09,334 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:44:09,538 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179)]
+2025-05-05 12:44:09,542 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855)]
+2025-05-05 12:44:09,543 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513)]
+2025-05-05 12:44:09,545 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103)]
+2025-05-05 12:44:09,546 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:09,548 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073)]
+2025-05-05 12:44:09,549 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114)]
+2025-05-05 12:44:09,553 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:44:09,554 [DEBUG] Sending characters to formatter.
+2025-05-05 12:44:09,556 [INFO] Formatting plate number with received characters: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:09,559 [DEBUG] Raw input characters (x1, char, conf): [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:09,570 [DEBUG] Characters sorted by confidence: [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:44:09,571 [DEBUG] Characters sorted by x1 position: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:09,574 [DEBUG] Selected letter for 3rd slot: YE (confidence: 0.55)
+2025-05-05 12:44:09,576 [INFO] Final formatted plate: 56YE15412 with confidence: 0.83
+2025-05-05 12:44:09,577 [DEBUG] Formatted plate string: 56YE15412
+2025-05-05 12:44:09,580 [DEBUG] Average confidence: 0.83
+2025-05-05 12:44:09,583 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.83
+2025-05-05 12:44:09,584 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:44:09,589 [INFO]  Starting processing for best frames.
+2025-05-05 12:44:09,615 [DEBUG] Encode frame to base64.
+2025-05-05 12:44:09,626 [INFO] 192.168.1.108 - - [05/May/2025 12:44:09] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:44:11,955 [INFO] POST request received for /process_plate
+2025-05-05 12:44:11,957 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-05 12:44:11,967 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:44:11,968 [INFO]  Starting plate detection on frame.
+2025-05-05 12:44:12,862 [DEBUG] Detected plate box: (416, 272, 499, 292)
+2025-05-05 12:44:12,863 [DEBUG] Plate matched to vehicle ID: 0 with distance: 126.00
+2025-05-05 12:44:12,865 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:44:12,866 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:44:12,867 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:44:13,071 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179)]
+2025-05-05 12:44:13,072 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855)]
+2025-05-05 12:44:13,074 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513)]
+2025-05-05 12:44:13,075 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103)]
+2025-05-05 12:44:13,077 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:13,079 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073)]
+2025-05-05 12:44:13,079 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114)]
+2025-05-05 12:44:13,086 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:44:13,086 [DEBUG] Sending characters to formatter.
+2025-05-05 12:44:13,087 [INFO] Formatting plate number with received characters: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:13,088 [DEBUG] Raw input characters (x1, char, conf): [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:13,092 [DEBUG] Characters sorted by confidence: [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:44:13,093 [DEBUG] Characters sorted by x1 position: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:13,099 [DEBUG] Selected letter for 3rd slot: YE (confidence: 0.55)
+2025-05-05 12:44:13,103 [INFO] Final formatted plate: 56YE15412 with confidence: 0.83
+2025-05-05 12:44:13,104 [DEBUG] Formatted plate string: 56YE15412
+2025-05-05 12:44:13,104 [DEBUG] Average confidence: 0.83
+2025-05-05 12:44:13,106 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.83
+2025-05-05 12:44:13,108 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:44:13,110 [INFO]  Starting processing for best frames.
+2025-05-05 12:44:13,152 [DEBUG] Encode frame to base64.
+2025-05-05 12:44:13,157 [INFO] 192.168.1.108 - - [05/May/2025 12:44:13] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:44:28,307 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\config.py', reloading
+2025-05-05 12:44:29,432 [INFO]  * Restarting with stat
+2025-05-05 12:44:39,258 [INFO] Logging system initialized.
+2025-05-05 12:44:39,360 [INFO]  plate.py logger is working!
+2025-05-05 12:44:39,360 [INFO] Initializing Plate Detector...
+2025-05-05 12:44:39,361 [INFO]  Starting: Car model loading
+2025-05-05 12:44:39,486 [INFO]  Finished: Car model loading
+2025-05-05 12:44:39,487 [INFO]  Starting: Plate model loading
+2025-05-05 12:44:39,811 [INFO]  Finished: Plate model loading
+2025-05-05 12:44:39,811 [INFO]  Starting: Char model loading
+2025-05-05 12:44:39,943 [INFO]  Finished: Char model loading
+2025-05-05 12:44:39,943 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 12:44:39,944 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 12:44:39,950 [INFO] Starting Flask server...
+2025-05-05 12:44:39,993 [WARNING]  * Debugger is active!
+2025-05-05 12:44:40,001 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 12:44:40,567 [INFO] POST request received for /process_plate
+2025-05-05 12:44:40,569 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-05 12:44:40,580 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:44:40,583 [INFO]  Starting plate detection on frame.
+2025-05-05 12:44:43,736 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:44:43,737 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:44:44,172 [INFO] Formatting plate number with received characters: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:44,177 [INFO] Final formatted plate: 56YE15412 with confidence: 0.83
+2025-05-05 12:44:44,183 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.83
+2025-05-05 12:44:44,186 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:44:44,240 [INFO]  Starting processing for best frames.
+2025-05-05 12:44:44,262 [INFO] 192.168.1.108 - - [05/May/2025 12:44:44] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:44:57,366 [INFO] POST request received for /process_plate
+2025-05-05 12:44:57,367 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-05 12:44:57,376 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:44:57,377 [INFO]  Starting plate detection on frame.
+2025-05-05 12:44:58,084 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:44:58,088 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:44:58,310 [INFO] Formatting plate number with received characters: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:44:58,312 [INFO] Final formatted plate: 56YE15412 with confidence: 0.83
+2025-05-05 12:44:58,313 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.83
+2025-05-05 12:44:58,314 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:44:58,324 [INFO]  Starting processing for best frames.
+2025-05-05 12:44:58,346 [INFO] 192.168.1.108 - - [05/May/2025 12:44:58] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:45:01,216 [INFO] POST request received for /process_plate
+2025-05-05 12:45:01,217 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-05 12:45:01,226 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:45:01,228 [INFO]  Starting plate detection on frame.
+2025-05-05 12:45:02,047 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:45:02,048 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:45:02,300 [INFO] Formatting plate number with received characters: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:45:02,301 [INFO] Final formatted plate: 56YE15412 with confidence: 0.83
+2025-05-05 12:45:02,302 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.83
+2025-05-05 12:45:02,303 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:45:02,308 [INFO]  Starting processing for best frames.
+2025-05-05 12:45:02,329 [INFO] 192.168.1.108 - - [05/May/2025 12:45:02] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:45:46,103 [INFO] POST request received for /process_plate
+2025-05-05 12:45:46,111 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-05 12:45:46,130 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:45:46,130 [INFO]  Starting plate detection on frame.
+2025-05-05 12:45:47,095 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:45:47,097 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:45:47,712 [INFO] Formatting plate number with received characters: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:45:47,712 [INFO] Final formatted plate: 56YE15412 with confidence: 0.83
+2025-05-05 12:45:47,713 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.83
+2025-05-05 12:45:47,714 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:45:47,730 [INFO]  Starting processing for best frames.
+2025-05-05 12:45:47,770 [INFO] 192.168.1.108 - - [05/May/2025 12:45:47] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:46:11,807 [INFO] POST request received for /process_plate
+2025-05-05 12:46:11,815 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-05 12:46:11,837 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:46:11,841 [INFO]  Starting plate detection on frame.
+2025-05-05 12:46:12,688 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:46:12,689 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:46:12,936 [INFO] Formatting plate number with received characters: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:46:12,936 [INFO] Final formatted plate: 56YE15412 with confidence: 0.83
+2025-05-05 12:46:12,937 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.83
+2025-05-05 12:46:12,938 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:46:12,951 [INFO]  Starting processing for best frames.
+2025-05-05 12:46:12,972 [INFO] 192.168.1.108 - - [05/May/2025 12:46:12] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:46:20,356 [INFO] POST request received for /process_plate
+2025-05-05 12:46:20,358 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-05 12:46:20,367 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:46:20,367 [INFO]  Starting plate detection on frame.
+2025-05-05 12:46:21,263 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:46:21,264 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:46:21,523 [INFO] Formatting plate number with received characters: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:46:21,524 [INFO] Final formatted plate: 56YE15412 with confidence: 0.83
+2025-05-05 12:46:21,527 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.83
+2025-05-05 12:46:21,529 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:46:21,532 [INFO]  Starting processing for best frames.
+2025-05-05 12:46:21,550 [INFO] 192.168.1.108 - - [05/May/2025 12:46:21] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:46:29,225 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\config.py', reloading
+2025-05-05 12:46:29,952 [INFO]  * Restarting with stat
+2025-05-05 12:46:37,190 [INFO] Logging system initialized.
+2025-05-05 12:46:37,309 [INFO]  plate.py logger is working!
+2025-05-05 12:46:37,310 [INFO] Initializing Plate Detector...
+2025-05-05 12:46:37,310 [INFO]  Starting: Car model loading
+2025-05-05 12:46:37,487 [INFO]  Finished: Car model loading
+2025-05-05 12:46:37,487 [INFO]  Starting: Plate model loading
+2025-05-05 12:46:37,756 [INFO]  Finished: Plate model loading
+2025-05-05 12:46:37,759 [INFO]  Starting: Char model loading
+2025-05-05 12:46:37,868 [INFO]  Finished: Char model loading
+2025-05-05 12:46:37,868 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 12:46:37,869 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 12:46:37,872 [INFO] Starting Flask server...
+2025-05-05 12:46:37,934 [WARNING]  * Debugger is active!
+2025-05-05 12:46:37,940 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 12:46:38,360 [INFO] POST request received for /process_plate
+2025-05-05 12:46:38,362 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-05 12:46:38,370 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:46:38,372 [INFO]  Starting plate detection on frame.
+2025-05-05 12:46:41,416 [DEBUG] Detected plate box: (416, 272, 499, 292)
+2025-05-05 12:46:41,417 [DEBUG] Plate matched to vehicle ID: 0 with distance: 126.00
+2025-05-05 12:46:41,419 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:46:41,419 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:46:41,420 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:46:41,766 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179)]
+2025-05-05 12:46:41,767 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855)]
+2025-05-05 12:46:41,768 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513)]
+2025-05-05 12:46:41,770 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103)]
+2025-05-05 12:46:41,771 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112)]
+2025-05-05 12:46:41,772 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073)]
+2025-05-05 12:46:41,774 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114)]
+2025-05-05 12:46:41,777 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:46:41,779 [DEBUG] Sending characters to formatter.
+2025-05-05 12:46:41,779 [INFO] Formatting plate number with received characters: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:46:41,782 [DEBUG] Raw input characters (x1, char, conf): [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:46:41,783 [DEBUG] Characters sorted by confidence: [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:46:41,791 [DEBUG] Characters sorted by x1 position: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:46:41,793 [DEBUG] Selected letter for 3rd slot: YE (confidence: 0.55)
+2025-05-05 12:46:41,793 [INFO] Final formatted plate: 56YE15412 with confidence: 0.83
+2025-05-05 12:46:41,794 [DEBUG] Formatted plate string: 56YE15412
+2025-05-05 12:46:41,801 [DEBUG] Average confidence: 0.83
+2025-05-05 12:46:41,802 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.83
+2025-05-05 12:46:41,803 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:46:41,806 [INFO]  Starting processing for best frames.
+2025-05-05 12:46:41,876 [DEBUG] Encode frame to base64.
+2025-05-05 12:46:41,886 [INFO] 192.168.1.108 - - [05/May/2025 12:46:41] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:49:18,267 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 12:49:19,329 [INFO]  * Restarting with stat
+2025-05-05 12:49:28,031 [INFO] Logging system initialized.
+2025-05-05 12:49:28,106 [INFO]  plate.py logger is working!
+2025-05-05 12:49:28,107 [INFO] Initializing Plate Detector...
+2025-05-05 12:49:28,108 [INFO]  Starting: Car model loading
+2025-05-05 12:49:28,235 [INFO]  Finished: Car model loading
+2025-05-05 12:49:28,236 [INFO]  Starting: Plate model loading
+2025-05-05 12:49:28,497 [INFO]  Finished: Plate model loading
+2025-05-05 12:49:28,498 [INFO]  Starting: Char model loading
+2025-05-05 12:49:28,588 [INFO]  Finished: Char model loading
+2025-05-05 12:49:28,588 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 12:49:28,589 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 12:49:28,592 [INFO] Starting Flask server...
+2025-05-05 12:49:28,624 [WARNING]  * Debugger is active!
+2025-05-05 12:49:28,630 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 12:49:31,782 [INFO] POST request received for /process_plate
+2025-05-05 12:49:31,785 [INFO] Received image data (timestamp: 16 APRIL 2025 23:45:16)
+2025-05-05 12:49:31,796 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:49:31,797 [INFO]  Starting plate detection on frame.
+2025-05-05 12:49:36,166 [DEBUG] Detected plate box: (416, 272, 499, 292)
+2025-05-05 12:49:36,167 [DEBUG] Plate matched to vehicle ID: 0 with distance: 126.00
+2025-05-05 12:49:36,169 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:49:36,170 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:49:36,171 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:49:36,604 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179)]
+2025-05-05 12:49:36,605 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855)]
+2025-05-05 12:49:36,605 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513)]
+2025-05-05 12:49:36,606 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103)]
+2025-05-05 12:49:36,607 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112)]
+2025-05-05 12:49:36,609 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073)]
+2025-05-05 12:49:36,613 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114)]
+2025-05-05 12:49:36,616 [DEBUG] Extracted characters (x1, char, conf): [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:49:36,620 [DEBUG] Sending characters to formatter.
+2025-05-05 12:49:36,620 [INFO] Formatting plate number with received characters: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:49:36,626 [DEBUG] Raw input characters (x1, char, conf): [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:49:36,638 [DEBUG] Characters sorted by confidence: [(94, '5', 0.9302970767021179), (18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (80, '1', 0.864132285118103), (143, '2', 0.8635874390602112), (131, '1', 0.8462067246437073), (110, '4', 0.845411479473114), (51, 'YE', 0.5486472845077515)]
+2025-05-05 12:49:36,639 [DEBUG] Characters sorted by x1 position: [(18, '5', 0.9052348136901855), (33, '6', 0.8687316179275513), (51, 'YE', 0.5486472845077515), (80, '1', 0.864132285118103), (94, '5', 0.9302970767021179), (110, '4', 0.845411479473114), (131, '1', 0.8462067246437073), (143, '2', 0.8635874390602112)]
+2025-05-05 12:49:36,654 [DEBUG] Selected letter for 3rd slot: YE (confidence: 0.55)
+2025-05-05 12:49:36,656 [INFO] Final formatted plate: 56YE15412 with confidence: 0.83
+2025-05-05 12:49:36,656 [DEBUG] Formatted plate string: 56YE15412
+2025-05-05 12:49:36,658 [DEBUG] Average confidence: 0.83
+2025-05-05 12:49:36,659 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.83
+2025-05-05 12:49:36,659 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:49:36,677 [INFO]  Starting processing for best frames.
+2025-05-05 12:49:36,693 [DEBUG] Encode frame to base64.
+2025-05-05 12:49:36,709 [INFO] 192.168.1.108 - - [05/May/2025 12:49:36] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:51:43,392 [INFO] POST request received for /process_plate
+2025-05-05 12:51:43,393 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 12:51:43,403 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:51:43,404 [INFO]  Starting plate detection on frame.
+2025-05-05 12:51:44,386 [DEBUG] Detected plate box: (644, 558, 754, 587)
+2025-05-05 12:51:44,387 [DEBUG] Plate matched to vehicle ID: 0 with distance: 164.00
+2025-05-05 12:51:44,387 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:51:44,388 [INFO]  Processing plate ID: 0 | Coordinates: (644, 558, 754, 587)
+2025-05-05 12:51:44,389 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:51:44,627 [DEBUG] Extracted characters (x1, char, conf): [(94, '7', 0.9277212619781494)]
+2025-05-05 12:51:44,628 [DEBUG] Extracted characters (x1, char, conf): [(94, '7', 0.9277212619781494), (54, 'GHAF', 0.9206219911575317)]
+2025-05-05 12:51:44,630 [DEBUG] Extracted characters (x1, char, conf): [(94, '7', 0.9277212619781494), (54, 'GHAF', 0.9206219911575317), (128, '7', 0.9142992496490479)]
+2025-05-05 12:51:44,632 [DEBUG] Extracted characters (x1, char, conf): [(94, '7', 0.9277212619781494), (54, 'GHAF', 0.9206219911575317), (128, '7', 0.9142992496490479), (79, '4', 0.9090250134468079)]
+2025-05-05 12:51:44,633 [DEBUG] Extracted characters (x1, char, conf): [(94, '7', 0.9277212619781494), (54, 'GHAF', 0.9206219911575317), (128, '7', 0.9142992496490479), (79, '4', 0.9090250134468079), (109, '3', 0.9001795053482056)]
+2025-05-05 12:51:44,635 [DEBUG] Extracted characters (x1, char, conf): [(94, '7', 0.9277212619781494), (54, 'GHAF', 0.9206219911575317), (128, '7', 0.9142992496490479), (79, '4', 0.9090250134468079), (109, '3', 0.9001795053482056), (37, '1', 0.8977692723274231)]
+2025-05-05 12:51:44,638 [DEBUG] Extracted characters (x1, char, conf): [(94, '7', 0.9277212619781494), (54, 'GHAF', 0.9206219911575317), (128, '7', 0.9142992496490479), (79, '4', 0.9090250134468079), (109, '3', 0.9001795053482056), (37, '1', 0.8977692723274231), (19, '4', 0.8882173299789429)]
+2025-05-05 12:51:44,640 [DEBUG] Extracted characters (x1, char, conf): [(94, '7', 0.9277212619781494), (54, 'GHAF', 0.9206219911575317), (128, '7', 0.9142992496490479), (79, '4', 0.9090250134468079), (109, '3', 0.9001795053482056), (37, '1', 0.8977692723274231), (19, '4', 0.8882173299789429), (144, '4', 0.8849654793739319)]
+2025-05-05 12:51:44,641 [DEBUG] Sending characters to formatter.
+2025-05-05 12:51:44,642 [INFO] Formatting plate number with received characters: [(19, '4', 0.8882173299789429), (37, '1', 0.8977692723274231), (54, 'GHAF', 0.9206219911575317), (79, '4', 0.9090250134468079), (94, '7', 0.9277212619781494), (109, '3', 0.9001795053482056), (128, '7', 0.9142992496490479), (144, '4', 0.8849654793739319)]
+2025-05-05 12:51:44,643 [DEBUG] Raw input characters (x1, char, conf): [(19, '4', 0.8882173299789429), (37, '1', 0.8977692723274231), (54, 'GHAF', 0.9206219911575317), (79, '4', 0.9090250134468079), (94, '7', 0.9277212619781494), (109, '3', 0.9001795053482056), (128, '7', 0.9142992496490479), (144, '4', 0.8849654793739319)]
+2025-05-05 12:51:44,650 [DEBUG] Characters sorted by confidence: [(94, '7', 0.9277212619781494), (54, 'GHAF', 0.9206219911575317), (128, '7', 0.9142992496490479), (79, '4', 0.9090250134468079), (109, '3', 0.9001795053482056), (37, '1', 0.8977692723274231), (19, '4', 0.8882173299789429), (144, '4', 0.8849654793739319)]
+2025-05-05 12:51:44,652 [DEBUG] Characters sorted by x1 position: [(19, '4', 0.8882173299789429), (37, '1', 0.8977692723274231), (54, 'GHAF', 0.9206219911575317), (79, '4', 0.9090250134468079), (94, '7', 0.9277212619781494), (109, '3', 0.9001795053482056), (128, '7', 0.9142992496490479), (144, '4', 0.8849654793739319)]
+2025-05-05 12:51:44,653 [DEBUG] Selected letter for 3rd slot: GHAF (confidence: 0.92)
+2025-05-05 12:51:44,656 [INFO] Final formatted plate: 41GHAF47374 with confidence: 0.91
+2025-05-05 12:51:44,659 [DEBUG] Formatted plate string: 41GHAF47374
+2025-05-05 12:51:44,660 [DEBUG] Average confidence: 0.91
+2025-05-05 12:51:44,666 [INFO]  Plate recognized: 41GHAF47374 | Confidence: 0.91
+2025-05-05 12:51:44,667 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:51:44,675 [INFO]  Starting processing for best frames.
+2025-05-05 12:51:44,694 [DEBUG] Encode frame to base64.
+2025-05-05 12:51:44,706 [INFO] 192.168.1.108 - - [05/May/2025 12:51:44] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:52:33,261 [INFO] POST request received for /process_plate
+2025-05-05 12:52:33,264 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 12:52:33,278 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:52:33,279 [INFO]  Starting plate detection on frame.
+2025-05-05 12:52:34,091 [DEBUG] Detected plate box: (522, 239, 604, 259)
+2025-05-05 12:52:34,094 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 12:52:34,095 [INFO]  Processing plate ID: None | Coordinates: (522, 239, 604, 259)
+2025-05-05 12:52:34,096 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:52:34,313 [DEBUG] Extracted characters (x1, char, conf): [(79, '8', 0.920573353767395)]
+2025-05-05 12:52:34,314 [DEBUG] Extracted characters (x1, char, conf): [(79, '8', 0.920573353767395), (94, '9', 0.9133291840553284)]
+2025-05-05 12:52:34,315 [DEBUG] Extracted characters (x1, char, conf): [(79, '8', 0.920573353767395), (94, '9', 0.9133291840553284), (18, '9', 0.9098585247993469)]
+2025-05-05 12:52:34,317 [DEBUG] Extracted characters (x1, char, conf): [(79, '8', 0.920573353767395), (94, '9', 0.9133291840553284), (18, '9', 0.9098585247993469), (34, '4', 0.8942826986312866)]
+2025-05-05 12:52:34,318 [DEBUG] Extracted characters (x1, char, conf): [(79, '8', 0.920573353767395), (94, '9', 0.9133291840553284), (18, '9', 0.9098585247993469), (34, '4', 0.8942826986312866), (143, '2', 0.892464816570282)]
+2025-05-05 12:52:34,319 [DEBUG] Extracted characters (x1, char, conf): [(79, '8', 0.920573353767395), (94, '9', 0.9133291840553284), (18, '9', 0.9098585247993469), (34, '4', 0.8942826986312866), (143, '2', 0.892464816570282), (109, '4', 0.8885957598686218)]
+2025-05-05 12:52:34,320 [DEBUG] Extracted characters (x1, char, conf): [(79, '8', 0.920573353767395), (94, '9', 0.9133291840553284), (18, '9', 0.9098585247993469), (34, '4', 0.8942826986312866), (143, '2', 0.892464816570282), (109, '4', 0.8885957598686218), (131, '1', 0.8509642481803894)]
+2025-05-05 12:52:34,321 [DEBUG] Sending characters to formatter.
+2025-05-05 12:52:34,322 [INFO] Formatting plate number with received characters: [(18, '9', 0.9098585247993469), (34, '4', 0.8942826986312866), (79, '8', 0.920573353767395), (94, '9', 0.9133291840553284), (109, '4', 0.8885957598686218), (131, '1', 0.8509642481803894), (143, '2', 0.892464816570282)]
+2025-05-05 12:52:34,324 [DEBUG] Raw input characters (x1, char, conf): [(18, '9', 0.9098585247993469), (34, '4', 0.8942826986312866), (79, '8', 0.920573353767395), (94, '9', 0.9133291840553284), (109, '4', 0.8885957598686218), (131, '1', 0.8509642481803894), (143, '2', 0.892464816570282)]
+2025-05-05 12:52:34,352 [DEBUG] Characters sorted by confidence: [(79, '8', 0.920573353767395), (94, '9', 0.9133291840553284), (18, '9', 0.9098585247993469), (34, '4', 0.8942826986312866), (143, '2', 0.892464816570282), (109, '4', 0.8885957598686218), (131, '1', 0.8509642481803894)]
+2025-05-05 12:52:34,353 [DEBUG] Characters sorted by x1 position: [(18, '9', 0.9098585247993469), (34, '4', 0.8942826986312866), (79, '8', 0.920573353767395), (94, '9', 0.9133291840553284), (109, '4', 0.8885957598686218), (131, '1', 0.8509642481803894), (143, '2', 0.892464816570282)]
+2025-05-05 12:52:34,354 [WARNING] No valid letter detected for the 3rd position(letter) in plate.
+2025-05-05 12:52:34,355 [WARNING] Some plate positions could not be filled properly.
+2025-05-05 12:52:34,356 [INFO] Final formatted plate: 94@89412 with confidence: 0.78
+2025-05-05 12:52:34,357 [DEBUG] Formatted plate string: 94@89412
+2025-05-05 12:52:34,363 [DEBUG] Average confidence: 0.78
+2025-05-05 12:52:34,363 [INFO]  Plate recognized: 94@89412 | Confidence: 0.78
+2025-05-05 12:52:34,364 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:52:34,371 [INFO]  Starting processing for best frames.
+2025-05-05 12:52:34,371 [WARNING] No valid stored car coordinates.
+2025-05-05 12:52:34,385 [DEBUG] Encode frame to base64.
+2025-05-05 12:52:34,389 [INFO] 192.168.1.108 - - [05/May/2025 12:52:34] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:53:36,025 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\config.py', reloading
+2025-05-05 12:53:37,059 [INFO]  * Restarting with stat
+2025-05-05 12:53:46,239 [INFO] Logging system initialized.
+2025-05-05 12:53:46,333 [INFO]  plate.py logger is working!
+2025-05-05 12:53:46,334 [INFO] Initializing Plate Detector...
+2025-05-05 12:53:46,334 [INFO]  Starting: Car model loading
+2025-05-05 12:53:46,490 [INFO]  Finished: Car model loading
+2025-05-05 12:53:46,491 [INFO]  Starting: Plate model loading
+2025-05-05 12:53:46,800 [INFO]  Finished: Plate model loading
+2025-05-05 12:53:46,801 [INFO]  Starting: Char model loading
+2025-05-05 12:53:47,134 [INFO]  Finished: Char model loading
+2025-05-05 12:53:47,134 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 12:53:47,135 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 12:53:47,140 [INFO] Starting Flask server...
+2025-05-05 12:53:47,185 [WARNING]  * Debugger is active!
+2025-05-05 12:53:47,199 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 12:53:47,656 [INFO] POST request received for /process_plate
+2025-05-05 12:53:47,658 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 12:53:47,673 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:53:47,674 [INFO]  Starting plate detection on frame.
+2025-05-05 12:53:50,757 [DEBUG] Detected plate box: (522, 239, 604, 259)
+2025-05-05 12:53:50,758 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 12:53:50,759 [INFO]  Processing plate ID: None | Coordinates: (522, 239, 604, 259)
+2025-05-05 12:53:50,760 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:53:53,240 [DEBUG] Extracted characters (x1, char, conf): [(93, '9', 0.8897324800491333)]
+2025-05-05 12:53:53,241 [DEBUG] Extracted characters (x1, char, conf): [(93, '9', 0.8897324800491333), (34, '4', 0.8841977119445801)]
+2025-05-05 12:53:53,242 [DEBUG] Extracted characters (x1, char, conf): [(93, '9', 0.8897324800491333), (34, '4', 0.8841977119445801), (79, '8', 0.8829184174537659)]
+2025-05-05 12:53:53,243 [DEBUG] Extracted characters (x1, char, conf): [(93, '9', 0.8897324800491333), (34, '4', 0.8841977119445801), (79, '8', 0.8829184174537659), (143, '2', 0.877124547958374)]
+2025-05-05 12:53:53,244 [DEBUG] Extracted characters (x1, char, conf): [(93, '9', 0.8897324800491333), (34, '4', 0.8841977119445801), (79, '8', 0.8829184174537659), (143, '2', 0.877124547958374), (109, '4', 0.8629899024963379)]
+2025-05-05 12:53:53,245 [DEBUG] Extracted characters (x1, char, conf): [(93, '9', 0.8897324800491333), (34, '4', 0.8841977119445801), (79, '8', 0.8829184174537659), (143, '2', 0.877124547958374), (109, '4', 0.8629899024963379), (18, '9', 0.861899197101593)]
+2025-05-05 12:53:53,250 [DEBUG] Extracted characters (x1, char, conf): [(93, '9', 0.8897324800491333), (34, '4', 0.8841977119445801), (79, '8', 0.8829184174537659), (143, '2', 0.877124547958374), (109, '4', 0.8629899024963379), (18, '9', 0.861899197101593), (131, '1', 0.8236925005912781)]
+2025-05-05 12:53:53,253 [DEBUG] Extracted characters (x1, char, conf): [(93, '9', 0.8897324800491333), (34, '4', 0.8841977119445801), (79, '8', 0.8829184174537659), (143, '2', 0.877124547958374), (109, '4', 0.8629899024963379), (18, '9', 0.861899197101593), (131, '1', 0.8236925005912781), (52, 'HEH', 0.304707407951355)]
+2025-05-05 12:53:53,256 [DEBUG] Sending characters to formatter.
+2025-05-05 12:53:53,257 [INFO] Formatting plate number with received characters: [(18, '9', 0.861899197101593), (34, '4', 0.8841977119445801), (52, 'HEH', 0.304707407951355), (79, '8', 0.8829184174537659), (93, '9', 0.8897324800491333), (109, '4', 0.8629899024963379), (131, '1', 0.8236925005912781), (143, '2', 0.877124547958374)]
+2025-05-05 12:53:53,259 [DEBUG] Raw input characters (x1, char, conf): [(18, '9', 0.861899197101593), (34, '4', 0.8841977119445801), (52, 'HEH', 0.304707407951355), (79, '8', 0.8829184174537659), (93, '9', 0.8897324800491333), (109, '4', 0.8629899024963379), (131, '1', 0.8236925005912781), (143, '2', 0.877124547958374)]
+2025-05-05 12:53:53,260 [DEBUG] Characters sorted by confidence: [(93, '9', 0.8897324800491333), (34, '4', 0.8841977119445801), (79, '8', 0.8829184174537659), (143, '2', 0.877124547958374), (109, '4', 0.8629899024963379), (18, '9', 0.861899197101593), (131, '1', 0.8236925005912781), (52, 'HEH', 0.304707407951355)]
+2025-05-05 12:53:53,261 [DEBUG] Characters sorted by x1 position: [(18, '9', 0.861899197101593), (34, '4', 0.8841977119445801), (52, 'HEH', 0.304707407951355), (79, '8', 0.8829184174537659), (93, '9', 0.8897324800491333), (109, '4', 0.8629899024963379), (131, '1', 0.8236925005912781), (143, '2', 0.877124547958374)]
+2025-05-05 12:53:53,262 [DEBUG] Selected letter for 3rd slot: HEH (confidence: 0.30)
+2025-05-05 12:53:53,264 [INFO] Final formatted plate: 94HEH89412 with confidence: 0.80
+2025-05-05 12:53:53,280 [DEBUG] Formatted plate string: 94HEH89412
+2025-05-05 12:53:53,292 [DEBUG] Average confidence: 0.80
+2025-05-05 12:53:53,295 [INFO]  Plate recognized: 94HEH89412 | Confidence: 0.80
+2025-05-05 12:53:53,308 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:53:53,320 [INFO]  Starting processing for best frames.
+2025-05-05 12:53:53,323 [WARNING] No valid stored car coordinates.
+2025-05-05 12:53:53,345 [DEBUG] Encode frame to base64.
+2025-05-05 12:53:53,361 [INFO] 192.168.1.108 - - [05/May/2025 12:53:53] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:54:36,240 [INFO] POST request received for /process_plate
+2025-05-05 12:54:36,241 [INFO] Received image data (timestamp: 1744620298.5438993)
+2025-05-05 12:54:36,262 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:54:36,264 [INFO]  Starting plate detection on frame.
+2025-05-05 12:54:37,038 [DEBUG] Detected plate box: (416, 272, 499, 292)
+2025-05-05 12:54:37,039 [DEBUG] Plate matched to vehicle ID: 0 with distance: 126.00
+2025-05-05 12:54:37,039 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:54:37,040 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:54:37,041 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:54:38,357 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349)]
+2025-05-05 12:54:38,360 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139)]
+2025-05-05 12:54:38,361 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487)]
+2025-05-05 12:54:38,361 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782)]
+2025-05-05 12:54:38,363 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021)]
+2025-05-05 12:54:38,364 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011)]
+2025-05-05 12:54:38,366 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011), (80, '1', 0.8431599140167236)]
+2025-05-05 12:54:38,367 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011), (80, '1', 0.8431599140167236), (131, '1', 0.754112184047699)]
+2025-05-05 12:54:38,370 [DEBUG] Sending characters to formatter.
+2025-05-05 12:54:38,372 [INFO] Formatting plate number with received characters: [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-05 12:54:38,374 [DEBUG] Raw input characters (x1, char, conf): [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-05 12:54:38,376 [DEBUG] Characters sorted by confidence: [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011), (80, '1', 0.8431599140167236), (131, '1', 0.754112184047699)]
+2025-05-05 12:54:38,378 [DEBUG] Characters sorted by x1 position: [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-05 12:54:38,379 [DEBUG] Selected letter for 3rd slot: YE (confidence: 0.88)
+2025-05-05 12:54:38,380 [INFO] Final formatted plate: 56YE15412 with confidence: 0.85
+2025-05-05 12:54:38,381 [DEBUG] Formatted plate string: 56YE15412
+2025-05-05 12:54:38,381 [DEBUG] Average confidence: 0.85
+2025-05-05 12:54:38,383 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.85
+2025-05-05 12:54:38,384 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:54:38,410 [INFO]  Starting processing for best frames.
+2025-05-05 12:54:38,421 [DEBUG] Encode frame to base64.
+2025-05-05 12:54:38,430 [INFO] 192.168.1.108 - - [05/May/2025 12:54:38] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:55:17,025 [INFO] POST request received for /process_plate
+2025-05-05 12:55:17,029 [INFO] Received image data (timestamp: 1744620298.5438993)
+2025-05-05 12:55:17,036 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:55:17,037 [INFO]  Starting plate detection on frame.
+2025-05-05 12:55:17,814 [DEBUG] Detected plate box: (416, 272, 499, 292)
+2025-05-05 12:55:17,815 [DEBUG] Plate matched to vehicle ID: 0 with distance: 126.00
+2025-05-05 12:55:17,815 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:55:17,816 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:55:17,817 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:55:19,408 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349)]
+2025-05-05 12:55:19,410 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139)]
+2025-05-05 12:55:19,411 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487)]
+2025-05-05 12:55:19,414 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782)]
+2025-05-05 12:55:19,416 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021)]
+2025-05-05 12:55:19,417 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011)]
+2025-05-05 12:55:19,419 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011), (80, '1', 0.8431599140167236)]
+2025-05-05 12:55:19,433 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011), (80, '1', 0.8431599140167236), (131, '1', 0.754112184047699)]
+2025-05-05 12:55:19,435 [DEBUG] Sending characters to formatter.
+2025-05-05 12:55:19,441 [INFO] Formatting plate number with received characters: [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-05 12:55:19,448 [DEBUG] Raw input characters (x1, char, conf): [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-05 12:55:19,450 [DEBUG] Characters sorted by confidence: [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011), (80, '1', 0.8431599140167236), (131, '1', 0.754112184047699)]
+2025-05-05 12:55:19,451 [DEBUG] Characters sorted by x1 position: [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-05 12:55:19,453 [DEBUG] Selected letter for 3rd slot: YE (confidence: 0.88)
+2025-05-05 12:55:19,458 [INFO] Final formatted plate: 56YE15412 with confidence: 0.85
+2025-05-05 12:55:19,499 [DEBUG] Formatted plate string: 56YE15412
+2025-05-05 12:55:19,500 [DEBUG] Average confidence: 0.85
+2025-05-05 12:55:19,501 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.85
+2025-05-05 12:55:19,502 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:55:19,508 [INFO]  Starting processing for best frames.
+2025-05-05 12:55:19,518 [DEBUG] Encode frame to base64.
+2025-05-05 12:55:19,528 [INFO] 192.168.1.108 - - [05/May/2025 12:55:19] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:55:22,074 [INFO] POST request received for /process_plate
+2025-05-05 12:55:22,076 [INFO] Received image data (timestamp: 1744620298.5438993)
+2025-05-05 12:55:22,085 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:55:22,085 [INFO]  Starting plate detection on frame.
+2025-05-05 12:55:22,850 [DEBUG] Detected plate box: (416, 272, 499, 292)
+2025-05-05 12:55:22,851 [DEBUG] Plate matched to vehicle ID: 0 with distance: 126.00
+2025-05-05 12:55:22,852 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:55:22,853 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:55:22,853 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:55:23,871 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349)]
+2025-05-05 12:55:23,875 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139)]
+2025-05-05 12:55:23,876 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487)]
+2025-05-05 12:55:23,877 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782)]
+2025-05-05 12:55:23,879 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021)]
+2025-05-05 12:55:23,881 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011)]
+2025-05-05 12:55:23,883 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011), (80, '1', 0.8431599140167236)]
+2025-05-05 12:55:23,887 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011), (80, '1', 0.8431599140167236), (131, '1', 0.754112184047699)]
+2025-05-05 12:55:23,893 [DEBUG] Sending characters to formatter.
+2025-05-05 12:55:23,894 [INFO] Formatting plate number with received characters: [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-05 12:55:23,895 [DEBUG] Raw input characters (x1, char, conf): [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-05 12:55:23,899 [DEBUG] Characters sorted by confidence: [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011), (80, '1', 0.8431599140167236), (131, '1', 0.754112184047699)]
+2025-05-05 12:55:23,900 [DEBUG] Characters sorted by x1 position: [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-05 12:55:23,902 [DEBUG] Selected letter for 3rd slot: YE (confidence: 0.88)
+2025-05-05 12:55:23,904 [INFO] Final formatted plate: 56YE15412 with confidence: 0.85
+2025-05-05 12:55:23,917 [DEBUG] Formatted plate string: 56YE15412
+2025-05-05 12:55:23,918 [DEBUG] Average confidence: 0.85
+2025-05-05 12:55:23,919 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.85
+2025-05-05 12:55:23,920 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:55:23,925 [INFO]  Starting processing for best frames.
+2025-05-05 12:55:23,940 [DEBUG] Encode frame to base64.
+2025-05-05 12:55:23,947 [INFO] 192.168.1.108 - - [05/May/2025 12:55:23] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 12:58:21,973 [INFO] POST request received for /process_plate
+2025-05-05 12:58:21,976 [INFO] Received image data (timestamp: 1744620298.5438993)
+2025-05-05 12:58:21,983 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 12:58:21,984 [INFO]  Starting plate detection on frame.
+2025-05-05 12:58:22,700 [DEBUG] Detected plate box: (416, 272, 499, 292)
+2025-05-05 12:58:22,701 [DEBUG] Plate matched to vehicle ID: 0 with distance: 126.00
+2025-05-05 12:58:22,701 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 12:58:22,702 [INFO]  Processing plate ID: 0 | Coordinates: (416, 272, 499, 292)
+2025-05-05 12:58:22,702 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 12:58:23,895 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349)]
+2025-05-05 12:58:23,896 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139)]
+2025-05-05 12:58:23,896 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487)]
+2025-05-05 12:58:23,898 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782)]
+2025-05-05 12:58:23,900 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021)]
+2025-05-05 12:58:23,901 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011)]
+2025-05-05 12:58:23,902 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011), (80, '1', 0.8431599140167236)]
+2025-05-05 12:58:23,904 [DEBUG] Extracted characters (x1, char, conf): [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011), (80, '1', 0.8431599140167236), (131, '1', 0.754112184047699)]
+2025-05-05 12:58:23,906 [DEBUG] Sending characters to formatter.
+2025-05-05 12:58:23,906 [INFO] Formatting plate number with received characters: [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-05 12:58:23,907 [DEBUG] Raw input characters (x1, char, conf): [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-05 12:58:23,909 [DEBUG] Characters sorted by confidence: [(34, '6', 0.8949717879295349), (18, '5', 0.8876597881317139), (51, 'YE', 0.8844462037086487), (94, '5', 0.8747099041938782), (143, '2', 0.851798415184021), (110, '4', 0.8445166349411011), (80, '1', 0.8431599140167236), (131, '1', 0.754112184047699)]
+2025-05-05 12:58:23,910 [DEBUG] Characters sorted by x1 position: [(18, '5', 0.8876597881317139), (34, '6', 0.8949717879295349), (51, 'YE', 0.8844462037086487), (80, '1', 0.8431599140167236), (94, '5', 0.8747099041938782), (110, '4', 0.8445166349411011), (131, '1', 0.754112184047699), (143, '2', 0.851798415184021)]
+2025-05-05 12:58:23,912 [DEBUG] Selected letter for 3rd slot: YE (confidence: 0.88)
+2025-05-05 12:58:23,913 [INFO] Final formatted plate: 56YE15412 with confidence: 0.85
+2025-05-05 12:58:23,914 [DEBUG] Formatted plate string: 56YE15412
+2025-05-05 12:58:23,915 [DEBUG] Average confidence: 0.85
+2025-05-05 12:58:23,916 [INFO]  Plate recognized: 56YE15412 | Confidence: 0.85
+2025-05-05 12:58:23,918 [INFO] Character recognition completed on detected plates.
+2025-05-05 12:58:23,920 [INFO]  Starting processing for best frames.
+2025-05-05 12:58:23,926 [DEBUG] Encode frame to base64.
+2025-05-05 12:58:23,931 [INFO] 192.168.1.108 - - [05/May/2025 12:58:23] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:03:06,119 [INFO] POST request received for /process_plate
+2025-05-05 13:03:06,124 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:03:06,142 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:03:06,143 [INFO]  Starting plate detection on frame.
+2025-05-05 13:03:06,859 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:03:06,860 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 13:03:06,861 [INFO]  Processing plate ID: None | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:03:06,862 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:03:07,900 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965)]
+2025-05-05 13:03:07,901 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337)]
+2025-05-05 13:03:07,902 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781)]
+2025-05-05 13:03:07,903 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857)]
+2025-05-05 13:03:07,904 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675)]
+2025-05-05 13:03:07,905 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781)]
+2025-05-05 13:03:07,906 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116)]
+2025-05-05 13:03:07,907 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:03:07,908 [DEBUG] Sending characters to formatter.
+2025-05-05 13:03:07,909 [INFO] Formatting plate number with received characters: [(17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (50, 'BE', 0.9359524846076965), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (109, '8', 0.8755844831466675), (129, '2', 0.8642857670783997), (143, '6', 0.8817813396453857)]
+2025-05-05 13:03:07,910 [DEBUG] Raw input characters (x1, char, conf): [(17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (50, 'BE', 0.9359524846076965), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (109, '8', 0.8755844831466675), (129, '2', 0.8642857670783997), (143, '6', 0.8817813396453857)]
+2025-05-05 13:03:07,911 [DEBUG] Characters sorted by confidence: [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:03:07,912 [DEBUG] Characters sorted by x1 position: [(17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (50, 'BE', 0.9359524846076965), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (109, '8', 0.8755844831466675), (129, '2', 0.8642857670783997), (143, '6', 0.8817813396453857)]
+2025-05-05 13:03:07,914 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:03:07,915 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:03:07,916 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:03:07,917 [DEBUG] Average confidence: 0.88
+2025-05-05 13:03:07,917 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:03:07,918 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:03:07,920 [INFO]  Starting processing for best frames.
+2025-05-05 13:03:07,921 [WARNING] No valid stored car coordinates.
+2025-05-05 13:03:07,927 [DEBUG] Encode frame to base64.
+2025-05-05 13:03:07,931 [INFO] 192.168.1.108 - - [05/May/2025 13:03:07] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:03:55,335 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 13:03:56,358 [INFO]  * Restarting with stat
+2025-05-05 13:04:03,466 [INFO] Logging system initialized.
+2025-05-05 13:04:03,546 [INFO]  plate.py logger is working!
+2025-05-05 13:04:03,547 [INFO] Initializing Plate Detector...
+2025-05-05 13:04:03,548 [INFO]  Starting: Car model loading
+2025-05-05 13:04:03,672 [INFO]  Finished: Car model loading
+2025-05-05 13:04:03,672 [INFO]  Starting: Plate model loading
+2025-05-05 13:04:03,929 [INFO]  Finished: Plate model loading
+2025-05-05 13:04:03,930 [INFO]  Starting: Char model loading
+2025-05-05 13:04:04,189 [INFO]  Finished: Char model loading
+2025-05-05 13:04:04,190 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:04:04,190 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:04:04,193 [INFO] Starting Flask server...
+2025-05-05 13:04:04,227 [WARNING]  * Debugger is active!
+2025-05-05 13:04:04,238 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:04:25,523 [INFO] POST request received for /process_plate
+2025-05-05 13:04:25,527 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:04:25,542 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:04:25,542 [INFO]  Starting plate detection on frame.
+2025-05-05 13:04:28,799 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:04:28,800 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 13:04:28,801 [INFO]  Processing plate ID: None | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:04:28,803 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:04:30,968 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:04:30,969 [DEBUG] Sending characters to formatter.
+2025-05-05 13:04:30,971 [INFO] Formatting plate number with received characters: [(17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (50, 'BE', 0.9359524846076965), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (109, '8', 0.8755844831466675), (129, '2', 0.8642857670783997), (143, '6', 0.8817813396453857)]
+2025-05-05 13:04:30,973 [DEBUG] Raw input characters (x1, char, conf): [(17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (50, 'BE', 0.9359524846076965), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (109, '8', 0.8755844831466675), (129, '2', 0.8642857670783997), (143, '6', 0.8817813396453857)]
+2025-05-05 13:04:30,975 [DEBUG] Characters sorted by confidence: [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:04:30,976 [DEBUG] Characters sorted by x1 position: [(17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (50, 'BE', 0.9359524846076965), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (109, '8', 0.8755844831466675), (129, '2', 0.8642857670783997), (143, '6', 0.8817813396453857)]
+2025-05-05 13:04:30,977 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:04:30,980 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:04:30,981 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:04:30,982 [DEBUG] Average confidence: 0.88
+2025-05-05 13:04:30,983 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:04:30,983 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:04:30,985 [INFO]  Starting processing for best frames.
+2025-05-05 13:04:30,994 [WARNING] No valid stored car coordinates.
+2025-05-05 13:04:31,008 [DEBUG] Encode frame to base64.
+2025-05-05 13:04:31,018 [INFO] 192.168.1.108 - - [05/May/2025 13:04:31] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:05:33,205 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 13:05:34,425 [INFO]  * Restarting with stat
+2025-05-05 13:05:40,719 [INFO] Logging system initialized.
+2025-05-05 13:05:40,833 [INFO]  plate.py logger is working!
+2025-05-05 13:05:40,834 [INFO] Initializing Plate Detector...
+2025-05-05 13:05:40,834 [INFO]  Starting: Car model loading
+2025-05-05 13:05:40,956 [INFO]  Finished: Car model loading
+2025-05-05 13:05:40,957 [INFO]  Starting: Plate model loading
+2025-05-05 13:05:41,345 [INFO]  Finished: Plate model loading
+2025-05-05 13:05:41,346 [INFO]  Starting: Char model loading
+2025-05-05 13:05:41,635 [INFO]  Finished: Char model loading
+2025-05-05 13:05:41,636 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:05:41,637 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:05:41,649 [INFO] Starting Flask server...
+2025-05-05 13:05:41,688 [WARNING]  * Debugger is active!
+2025-05-05 13:05:41,697 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:06:09,326 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 13:06:10,039 [INFO]  * Restarting with stat
+2025-05-05 13:06:16,515 [INFO] Logging system initialized.
+2025-05-05 13:06:16,572 [INFO]  plate.py logger is working!
+2025-05-05 13:06:16,573 [INFO] Initializing Plate Detector...
+2025-05-05 13:06:16,573 [INFO]  Starting: Car model loading
+2025-05-05 13:06:16,672 [INFO]  Finished: Car model loading
+2025-05-05 13:06:16,673 [INFO]  Starting: Plate model loading
+2025-05-05 13:06:16,870 [INFO]  Finished: Plate model loading
+2025-05-05 13:06:16,871 [INFO]  Starting: Char model loading
+2025-05-05 13:06:17,029 [INFO]  Finished: Char model loading
+2025-05-05 13:06:17,029 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:06:17,031 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:06:17,033 [INFO] Starting Flask server...
+2025-05-05 13:06:17,074 [WARNING]  * Debugger is active!
+2025-05-05 13:06:17,081 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:06:27,331 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 13:06:28,001 [INFO]  * Restarting with stat
+2025-05-05 13:06:35,297 [INFO] Logging system initialized.
+2025-05-05 13:06:35,378 [INFO]  plate.py logger is working!
+2025-05-05 13:06:35,379 [INFO] Initializing Plate Detector...
+2025-05-05 13:06:35,380 [INFO]  Starting: Car model loading
+2025-05-05 13:06:35,485 [INFO]  Finished: Car model loading
+2025-05-05 13:06:35,486 [INFO]  Starting: Plate model loading
+2025-05-05 13:06:35,895 [INFO]  Finished: Plate model loading
+2025-05-05 13:06:35,896 [INFO]  Starting: Char model loading
+2025-05-05 13:06:36,088 [INFO]  Finished: Char model loading
+2025-05-05 13:06:36,089 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:06:36,089 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:06:36,092 [INFO] Starting Flask server...
+2025-05-05 13:06:36,123 [WARNING]  * Debugger is active!
+2025-05-05 13:06:36,133 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:06:41,678 [INFO] POST request received for /process_plate
+2025-05-05 13:06:41,681 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:06:41,692 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:06:41,693 [INFO]  Starting plate detection on frame.
+2025-05-05 13:06:44,759 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:06:44,759 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 13:06:44,760 [INFO]  Processing plate ID: None | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:06:44,763 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:06:46,712 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:06:46,713 [DEBUG] Sending characters to formatter.
+2025-05-05 13:06:46,714 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:06:46,716 [DEBUG] Characters sorted by x1 position: [(17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (50, 'BE', 0.9359524846076965), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (109, '8', 0.8755844831466675), (129, '2', 0.8642857670783997), (143, '6', 0.8817813396453857)]
+2025-05-05 13:06:46,717 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:06:46,718 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:06:46,719 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:06:46,720 [DEBUG] Average confidence: 0.88
+2025-05-05 13:06:46,720 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:06:46,721 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:06:46,724 [INFO]  Starting processing for best frames.
+2025-05-05 13:06:46,727 [WARNING] No valid stored car coordinates.
+2025-05-05 13:06:46,738 [DEBUG] Encode frame to base64.
+2025-05-05 13:06:46,746 [INFO] 192.168.1.108 - - [05/May/2025 13:06:46] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:08:12,160 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 13:08:13,490 [INFO]  * Restarting with stat
+2025-05-05 13:08:24,959 [INFO] Logging system initialized.
+2025-05-05 13:08:25,027 [INFO]  plate.py logger is working!
+2025-05-05 13:08:25,029 [INFO] Initializing Plate Detector...
+2025-05-05 13:08:25,030 [INFO]  Starting: Car model loading
+2025-05-05 13:08:25,114 [INFO]  Finished: Car model loading
+2025-05-05 13:08:25,115 [INFO]  Starting: Plate model loading
+2025-05-05 13:08:25,314 [INFO]  Finished: Plate model loading
+2025-05-05 13:08:25,315 [INFO]  Starting: Char model loading
+2025-05-05 13:08:25,469 [INFO]  Finished: Char model loading
+2025-05-05 13:08:25,469 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:08:25,471 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:08:25,473 [INFO] Starting Flask server...
+2025-05-05 13:08:25,498 [WARNING]  * Debugger is active!
+2025-05-05 13:08:25,506 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:08:29,097 [INFO] POST request received for /process_plate
+2025-05-05 13:08:29,103 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:08:29,118 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:08:29,121 [INFO]  Starting plate detection on frame.
+2025-05-05 13:08:32,755 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:08:32,757 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 13:08:32,759 [INFO]  Processing plate ID: None | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:08:32,762 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:08:34,632 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:08:34,633 [DEBUG] Sending characters to formatter.
+2025-05-05 13:08:34,663 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:08:34,666 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:08:34,668 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:08:34,680 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:08:34,682 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:08:34,695 [DEBUG] Average confidence: 0.88
+2025-05-05 13:08:34,730 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:08:34,733 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:08:34,750 [INFO]  Starting processing for best frames.
+2025-05-05 13:08:34,752 [WARNING] No valid stored car coordinates.
+2025-05-05 13:08:34,794 [DEBUG] Encode frame to base64.
+2025-05-05 13:08:34,800 [INFO] 192.168.1.108 - - [05/May/2025 13:08:34] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:08:44,149 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 13:08:46,054 [INFO]  * Restarting with stat
+2025-05-05 13:12:03,249 [INFO] Logging system initialized.
+2025-05-05 13:12:03,302 [INFO]  plate.py logger is working!
+2025-05-05 13:12:20,848 [INFO] Logging system initialized.
+2025-05-05 13:12:20,905 [INFO]  plate.py logger is working!
+2025-05-05 13:12:20,906 [INFO] Initializing Plate Detector...
+2025-05-05 13:12:20,907 [INFO]  Starting: Car model loading
+2025-05-05 13:12:21,000 [INFO]  Finished: Car model loading
+2025-05-05 13:12:21,001 [INFO]  Starting: Plate model loading
+2025-05-05 13:12:21,188 [INFO]  Finished: Plate model loading
+2025-05-05 13:12:21,188 [INFO]  Starting: Char model loading
+2025-05-05 13:12:21,347 [INFO]  Finished: Char model loading
+2025-05-05 13:12:21,348 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:12:21,349 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:12:21,354 [INFO] Starting Flask server...
+2025-05-05 13:12:22,319 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-05-05 13:12:22,324 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-05 13:12:22,337 [INFO]  * Restarting with stat
+2025-05-05 13:12:31,826 [INFO] Logging system initialized.
+2025-05-05 13:12:32,012 [INFO]  plate.py logger is working!
+2025-05-05 13:12:32,014 [INFO] Initializing Plate Detector...
+2025-05-05 13:12:32,015 [INFO]  Starting: Car model loading
+2025-05-05 13:12:32,226 [INFO]  Finished: Car model loading
+2025-05-05 13:12:32,227 [INFO]  Starting: Plate model loading
+2025-05-05 13:12:32,629 [INFO]  Finished: Plate model loading
+2025-05-05 13:12:32,630 [INFO]  Starting: Char model loading
+2025-05-05 13:12:32,962 [INFO]  Finished: Char model loading
+2025-05-05 13:12:32,962 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:12:32,963 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:12:32,966 [INFO] Starting Flask server...
+2025-05-05 13:12:33,033 [WARNING]  * Debugger is active!
+2025-05-05 13:12:33,046 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:12:33,695 [INFO] POST request received for /process_plate
+2025-05-05 13:12:33,698 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:12:33,715 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:12:33,716 [INFO]  Starting plate detection on frame.
+2025-05-05 13:12:38,948 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:12:38,949 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 13:12:38,950 [INFO]  Processing plate ID: None | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:12:38,950 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:12:41,799 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:12:41,799 [DEBUG] Sending characters to formatter.
+2025-05-05 13:12:41,800 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:12:41,801 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:12:41,801 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:12:41,802 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:12:41,803 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:12:41,806 [DEBUG] Average confidence: 0.88
+2025-05-05 13:12:41,808 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:12:41,809 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:12:41,815 [INFO]  Starting processing for best frames.
+2025-05-05 13:12:41,815 [WARNING] No valid stored car coordinates.
+2025-05-05 13:12:41,825 [DEBUG] Encode frame to base64.
+2025-05-05 13:12:41,831 [INFO] 192.168.1.108 - - [05/May/2025 13:12:41] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:17:20,204 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 13:17:21,909 [INFO]  * Restarting with stat
+2025-05-05 13:17:34,003 [INFO] Logging system initialized.
+2025-05-05 13:17:34,065 [INFO]  plate.py logger is working!
+2025-05-05 13:17:34,068 [INFO] Initializing Plate Detector...
+2025-05-05 13:17:34,069 [INFO]  Starting: Car model loading
+2025-05-05 13:17:34,151 [INFO]  Finished: Car model loading
+2025-05-05 13:17:34,152 [INFO]  Starting: Plate model loading
+2025-05-05 13:17:34,345 [INFO]  Finished: Plate model loading
+2025-05-05 13:17:34,346 [INFO]  Starting: Char model loading
+2025-05-05 13:17:34,520 [INFO]  Finished: Char model loading
+2025-05-05 13:17:34,520 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:17:34,521 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:17:34,524 [INFO] Starting Flask server...
+2025-05-05 13:17:34,549 [WARNING]  * Debugger is active!
+2025-05-05 13:17:34,558 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:17:35,922 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 13:17:36,626 [INFO]  * Restarting with stat
+2025-05-05 13:17:43,423 [INFO] Logging system initialized.
+2025-05-05 13:17:43,583 [INFO]  plate.py logger is working!
+2025-05-05 13:17:43,584 [INFO] Initializing Plate Detector...
+2025-05-05 13:17:43,585 [INFO]  Starting: Car model loading
+2025-05-05 13:17:43,669 [INFO]  Finished: Car model loading
+2025-05-05 13:17:43,670 [INFO]  Starting: Plate model loading
+2025-05-05 13:17:43,862 [INFO]  Finished: Plate model loading
+2025-05-05 13:17:43,863 [INFO]  Starting: Char model loading
+2025-05-05 13:17:44,050 [INFO]  Finished: Char model loading
+2025-05-05 13:17:44,051 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:17:44,052 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:17:44,056 [INFO] Starting Flask server...
+2025-05-05 13:17:44,095 [WARNING]  * Debugger is active!
+2025-05-05 13:17:44,100 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:17:54,876 [INFO] POST request received for /process_plate
+2025-05-05 13:17:54,946 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:17:54,967 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:17:54,968 [INFO]  Starting plate detection on frame.
+2025-05-05 13:18:00,969 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:18:00,979 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 13:18:00,987 [INFO]  Processing plate ID: None | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:18:01,003 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:18:04,622 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:18:04,655 [DEBUG] Sending characters to formatter.
+2025-05-05 13:18:04,670 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:18:04,681 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:18:04,701 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:18:04,755 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:18:04,769 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:18:04,771 [DEBUG] Average confidence: 0.88
+2025-05-05 13:18:04,787 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:18:04,788 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:18:04,820 [INFO]  Starting processing for best frames.
+2025-05-05 13:18:04,836 [WARNING] No valid stored car coordinates.
+2025-05-05 13:18:04,924 [DEBUG] Encode frame to base64.
+2025-05-05 13:18:04,967 [INFO] 192.168.1.108 - - [05/May/2025 13:18:04] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:19:50,407 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 13:19:53,811 [INFO]  * Restarting with stat
+2025-05-05 13:20:01,972 [INFO] Logging system initialized.
+2025-05-05 13:20:02,068 [INFO]  plate.py logger is working!
+2025-05-05 13:20:02,069 [INFO] Initializing Plate Detector...
+2025-05-05 13:20:02,069 [INFO]  Starting: Car model loading
+2025-05-05 13:20:02,187 [INFO]  Finished: Car model loading
+2025-05-05 13:20:02,188 [INFO]  Starting: Plate model loading
+2025-05-05 13:20:02,496 [INFO]  Finished: Plate model loading
+2025-05-05 13:20:02,496 [INFO]  Starting: Char model loading
+2025-05-05 13:20:02,724 [INFO]  Finished: Char model loading
+2025-05-05 13:20:02,725 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:20:02,725 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:20:02,730 [INFO] Starting Flask server...
+2025-05-05 13:20:02,769 [WARNING]  * Debugger is active!
+2025-05-05 13:20:02,780 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:21:16,080 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 13:21:17,215 [INFO]  * Restarting with stat
+2025-05-05 13:21:36,767 [INFO] Logging system initialized.
+2025-05-05 13:21:36,823 [INFO]  plate.py logger is working!
+2025-05-05 13:21:36,824 [INFO] Initializing Plate Detector...
+2025-05-05 13:21:36,825 [INFO]  Starting: Car model loading
+2025-05-05 13:21:36,921 [INFO]  Finished: Car model loading
+2025-05-05 13:21:36,921 [INFO]  Starting: Plate model loading
+2025-05-05 13:21:37,118 [INFO]  Finished: Plate model loading
+2025-05-05 13:21:37,118 [INFO]  Starting: Char model loading
+2025-05-05 13:21:37,267 [INFO]  Finished: Char model loading
+2025-05-05 13:21:37,268 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:21:37,268 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:21:37,271 [INFO] Starting Flask server...
+2025-05-05 13:21:38,179 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-05-05 13:21:38,184 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-05 13:21:38,193 [INFO]  * Restarting with stat
+2025-05-05 13:21:49,398 [INFO] Logging system initialized.
+2025-05-05 13:21:49,558 [INFO]  plate.py logger is working!
+2025-05-05 13:21:49,561 [INFO] Initializing Plate Detector...
+2025-05-05 13:21:49,561 [INFO]  Starting: Car model loading
+2025-05-05 13:21:49,795 [INFO]  Finished: Car model loading
+2025-05-05 13:21:49,797 [INFO]  Starting: Plate model loading
+2025-05-05 13:21:50,216 [INFO]  Finished: Plate model loading
+2025-05-05 13:21:50,216 [INFO]  Starting: Char model loading
+2025-05-05 13:21:50,530 [INFO]  Finished: Char model loading
+2025-05-05 13:21:50,531 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:21:50,531 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:21:50,534 [INFO] Starting Flask server...
+2025-05-05 13:21:50,580 [WARNING]  * Debugger is active!
+2025-05-05 13:21:50,595 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:21:51,145 [INFO] POST request received for /process_plate
+2025-05-05 13:21:51,147 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:21:51,180 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:21:51,181 [INFO]  Starting plate detection on frame.
+2025-05-05 13:21:54,805 [WARNING] No cars detected in the frame.
+2025-05-05 13:21:55,354 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:21:55,354 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 13:21:55,355 [INFO]  Processing plate ID: None | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:21:55,356 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:21:58,121 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:21:58,123 [DEBUG] Sending characters to formatter.
+2025-05-05 13:21:58,124 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:21:58,126 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:21:58,127 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:21:58,129 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:21:58,130 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:21:58,132 [DEBUG] Average confidence: 0.88
+2025-05-05 13:21:58,133 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:21:58,135 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:21:58,142 [INFO]  Starting processing for best frames.
+2025-05-05 13:21:58,143 [WARNING] No valid stored car coordinates.
+2025-05-05 13:21:58,197 [DEBUG] Encode frame to base64.
+2025-05-05 13:21:58,226 [INFO] 192.168.1.108 - - [05/May/2025 13:21:58] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:23:47,543 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 13:23:49,890 [INFO]  * Restarting with stat
+2025-05-05 13:23:56,281 [INFO] Logging system initialized.
+2025-05-05 13:23:56,341 [INFO]  plate.py logger is working!
+2025-05-05 13:23:56,342 [INFO] Initializing Plate Detector...
+2025-05-05 13:23:56,343 [INFO]  Starting: Car model loading
+2025-05-05 13:23:56,448 [INFO]  Finished: Car model loading
+2025-05-05 13:23:56,448 [INFO]  Starting: Plate model loading
+2025-05-05 13:23:56,684 [INFO]  Finished: Plate model loading
+2025-05-05 13:23:56,684 [INFO]  Starting: Char model loading
+2025-05-05 13:23:56,913 [INFO]  Finished: Char model loading
+2025-05-05 13:23:56,913 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:23:56,914 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:23:56,917 [INFO] Starting Flask server...
+2025-05-05 13:23:56,950 [WARNING]  * Debugger is active!
+2025-05-05 13:23:56,959 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:24:09,715 [INFO] POST request received for /process_plate
+2025-05-05 13:24:09,719 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:24:09,735 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:24:09,737 [INFO]  Starting plate detection on frame.
+2025-05-05 13:24:13,609 [WARNING] No cars detected in the frame.
+2025-05-05 13:24:14,244 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:24:14,245 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 13:24:14,246 [INFO]  Processing plate ID: None | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:24:14,249 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:24:17,353 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:24:17,353 [DEBUG] Sending characters to formatter.
+2025-05-05 13:24:17,354 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:24:17,355 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:24:17,356 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:24:17,356 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:24:17,359 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:24:17,362 [DEBUG] Average confidence: 0.88
+2025-05-05 13:24:17,363 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:24:17,364 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:24:17,370 [INFO]  Starting processing for best frames.
+2025-05-05 13:24:17,372 [WARNING] No valid stored car coordinates.
+2025-05-05 13:24:17,390 [DEBUG] Encode frame to base64.
+2025-05-05 13:24:17,402 [INFO] 192.168.1.108 - - [05/May/2025 13:24:17] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:26:07,347 [INFO] POST request received for /process_plate
+2025-05-05 13:26:07,355 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:26:07,379 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:26:07,384 [INFO]  Starting plate detection on frame.
+2025-05-05 13:26:07,899 [WARNING] No cars detected in the frame.
+2025-05-05 13:26:08,224 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:26:08,225 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 13:26:08,225 [INFO]  Processing plate ID: None | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:26:08,226 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:26:09,453 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:26:09,454 [DEBUG] Sending characters to formatter.
+2025-05-05 13:26:09,454 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:26:09,457 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:26:09,459 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:26:09,460 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:26:09,461 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:26:09,461 [DEBUG] Average confidence: 0.88
+2025-05-05 13:26:09,464 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:26:09,466 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:26:09,475 [INFO]  Starting processing for best frames.
+2025-05-05 13:26:09,476 [WARNING] No valid stored car coordinates.
+2025-05-05 13:26:09,495 [DEBUG] Encode frame to base64.
+2025-05-05 13:26:09,504 [INFO] 192.168.1.108 - - [05/May/2025 13:26:09] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:26:28,474 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\config.py', reloading
+2025-05-05 13:26:30,141 [INFO]  * Restarting with stat
+2025-05-05 13:26:39,778 [INFO] Logging system initialized.
+2025-05-05 13:26:39,856 [INFO]  plate.py logger is working!
+2025-05-05 13:26:39,858 [INFO] Initializing Plate Detector...
+2025-05-05 13:26:39,858 [INFO]  Starting: Car model loading
+2025-05-05 13:26:40,068 [INFO]  Finished: Car model loading
+2025-05-05 13:26:40,069 [INFO]  Starting: Plate model loading
+2025-05-05 13:26:40,529 [INFO]  Finished: Plate model loading
+2025-05-05 13:26:40,530 [INFO]  Starting: Char model loading
+2025-05-05 13:26:41,011 [INFO]  Finished: Char model loading
+2025-05-05 13:26:41,013 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:26:41,014 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:26:41,017 [INFO] Starting Flask server...
+2025-05-05 13:26:41,066 [WARNING]  * Debugger is active!
+2025-05-05 13:26:41,072 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:26:41,581 [INFO] POST request received for /process_plate
+2025-05-05 13:26:41,586 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:26:41,642 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:26:41,642 [INFO]  Starting plate detection on frame.
+2025-05-05 13:26:49,170 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-05 13:26:50,137 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:26:50,139 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-05 13:26:50,139 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 13:26:50,141 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:26:50,143 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:26:52,349 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:26:52,378 [DEBUG] Sending characters to formatter.
+2025-05-05 13:26:52,389 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:26:52,398 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:26:52,415 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:26:52,421 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:26:52,432 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:26:52,444 [DEBUG] Average confidence: 0.88
+2025-05-05 13:26:52,511 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:26:52,515 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:26:52,545 [INFO]  Starting processing for best frames.
+2025-05-05 13:26:52,579 [DEBUG] Encode frame to base64.
+2025-05-05 13:26:52,630 [INFO] 192.168.1.108 - - [05/May/2025 13:26:52] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:27:53,636 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\config.py', reloading
+2025-05-05 13:27:55,329 [INFO]  * Restarting with stat
+2025-05-05 13:28:04,181 [INFO] Logging system initialized.
+2025-05-05 13:28:04,296 [INFO]  plate.py logger is working!
+2025-05-05 13:28:04,297 [INFO] Initializing Plate Detector...
+2025-05-05 13:28:04,300 [INFO]  Starting: Car model loading
+2025-05-05 13:28:04,489 [INFO]  Finished: Car model loading
+2025-05-05 13:28:04,490 [INFO]  Starting: Plate model loading
+2025-05-05 13:28:04,856 [INFO]  Finished: Plate model loading
+2025-05-05 13:28:04,856 [INFO]  Starting: Char model loading
+2025-05-05 13:28:05,181 [INFO]  Finished: Char model loading
+2025-05-05 13:28:05,182 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:28:05,182 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:28:05,188 [INFO] Starting Flask server...
+2025-05-05 13:28:05,247 [WARNING]  * Debugger is active!
+2025-05-05 13:28:05,255 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:28:05,870 [INFO] POST request received for /process_plate
+2025-05-05 13:28:05,876 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:28:05,895 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:28:05,901 [INFO]  Starting plate detection on frame.
+2025-05-05 13:28:09,684 [WARNING] No cars detected in the frame.
+2025-05-05 13:28:10,700 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:28:10,701 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 13:28:10,702 [INFO]  Processing plate ID: None | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:28:10,704 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:28:12,879 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:28:12,882 [DEBUG] Sending characters to formatter.
+2025-05-05 13:28:12,882 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:28:12,883 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:28:12,884 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:28:12,885 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:28:12,885 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:28:12,886 [DEBUG] Average confidence: 0.88
+2025-05-05 13:28:12,887 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:28:12,887 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:28:12,894 [INFO]  Starting processing for best frames.
+2025-05-05 13:28:12,895 [WARNING] No valid stored car coordinates.
+2025-05-05 13:28:12,922 [DEBUG] Encode frame to base64.
+2025-05-05 13:28:12,927 [INFO] 192.168.1.108 - - [05/May/2025 13:28:12] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:30:06,660 [INFO] Logging system initialized.
+2025-05-05 13:30:06,748 [INFO]  plate.py logger is working!
+2025-05-05 13:30:06,749 [INFO] Initializing Plate Detector...
+2025-05-05 13:30:06,749 [INFO]  Starting: Car model loading
+2025-05-05 13:30:06,866 [INFO]  Finished: Car model loading
+2025-05-05 13:30:06,867 [INFO]  Starting: Plate model loading
+2025-05-05 13:30:07,143 [INFO]  Finished: Plate model loading
+2025-05-05 13:30:07,143 [INFO]  Starting: Char model loading
+2025-05-05 13:30:07,377 [INFO]  Finished: Char model loading
+2025-05-05 13:30:07,377 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:30:07,378 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:30:07,380 [INFO] Starting Flask server...
+2025-05-05 13:30:08,317 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-05-05 13:30:08,318 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-05 13:30:08,326 [INFO]  * Restarting with stat
+2025-05-05 13:30:14,273 [INFO] Logging system initialized.
+2025-05-05 13:30:14,340 [INFO]  plate.py logger is working!
+2025-05-05 13:30:14,343 [INFO] Initializing Plate Detector...
+2025-05-05 13:30:14,345 [INFO]  Starting: Car model loading
+2025-05-05 13:30:14,442 [INFO]  Finished: Car model loading
+2025-05-05 13:30:14,442 [INFO]  Starting: Plate model loading
+2025-05-05 13:30:14,643 [INFO]  Finished: Plate model loading
+2025-05-05 13:30:14,643 [INFO]  Starting: Char model loading
+2025-05-05 13:30:14,819 [INFO]  Finished: Char model loading
+2025-05-05 13:30:14,820 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:30:14,821 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:30:14,825 [INFO] Starting Flask server...
+2025-05-05 13:30:14,871 [WARNING]  * Debugger is active!
+2025-05-05 13:30:14,882 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:30:29,998 [INFO] POST request received for /process_plate
+2025-05-05 13:30:30,001 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:30:30,013 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:30:30,014 [INFO]  Starting plate detection on frame.
+2025-05-05 13:30:34,573 [WARNING] No cars detected in the frame.
+2025-05-05 13:30:35,179 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:30:35,181 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 13:30:35,182 [INFO]  Processing plate ID: None | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:30:35,186 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:30:38,490 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:30:38,494 [DEBUG] Sending characters to formatter.
+2025-05-05 13:30:38,496 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:30:38,505 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:30:38,507 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:30:38,508 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:30:38,509 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:30:38,517 [DEBUG] Average confidence: 0.88
+2025-05-05 13:30:38,522 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:30:38,534 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:30:38,588 [INFO]  Starting processing for best frames.
+2025-05-05 13:30:38,609 [WARNING] No valid stored car coordinates.
+2025-05-05 13:30:38,794 [DEBUG] Encode frame to base64.
+2025-05-05 13:30:38,822 [INFO] 192.168.1.108 - - [05/May/2025 13:30:38] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:32:27,464 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\config.py', reloading
+2025-05-05 13:32:28,606 [INFO]  * Restarting with stat
+2025-05-05 13:32:38,290 [INFO] Logging system initialized.
+2025-05-05 13:32:38,375 [INFO]  plate.py logger is working!
+2025-05-05 13:32:38,376 [INFO] Initializing Plate Detector...
+2025-05-05 13:32:38,379 [INFO]  Starting: Car model loading
+2025-05-05 13:32:38,673 [INFO]  Finished: Car model loading
+2025-05-05 13:32:38,674 [INFO]  Starting: Plate model loading
+2025-05-05 13:32:39,240 [INFO]  Finished: Plate model loading
+2025-05-05 13:32:39,242 [INFO]  Starting: Char model loading
+2025-05-05 13:32:39,717 [INFO]  Finished: Char model loading
+2025-05-05 13:32:39,718 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:32:39,719 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:32:39,722 [INFO] Starting Flask server...
+2025-05-05 13:32:39,784 [WARNING]  * Debugger is active!
+2025-05-05 13:32:39,793 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:32:40,773 [INFO] POST request received for /process_plate
+2025-05-05 13:32:40,786 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:32:40,849 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:32:40,856 [INFO]  Starting plate detection on frame.
+2025-05-05 13:32:45,168 [INFO] Car detected with coordinates: tensor([[ 76.3022,   9.6435, 363.7490, 381.8606]])
+2025-05-05 13:32:47,792 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:32:47,953 [DEBUG] Plate matched to vehicle ID: 0 with distance: 87.04
+2025-05-05 13:32:48,051 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 13:32:48,226 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:32:48,559 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:32:50,862 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\config.py', reloading
+2025-05-05 13:34:32,597 [INFO] Logging system initialized.
+2025-05-05 13:34:32,677 [INFO]  plate.py logger is working!
+2025-05-05 13:34:32,678 [INFO] Initializing Plate Detector...
+2025-05-05 13:34:32,679 [INFO]  Starting: Car model loading
+2025-05-05 13:34:32,903 [INFO]  Finished: Car model loading
+2025-05-05 13:34:32,904 [INFO]  Starting: Plate model loading
+2025-05-05 13:34:33,159 [INFO]  Finished: Plate model loading
+2025-05-05 13:34:33,160 [INFO]  Starting: Char model loading
+2025-05-05 13:34:33,393 [INFO]  Finished: Char model loading
+2025-05-05 13:34:33,393 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:34:33,394 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:34:33,397 [INFO] Starting Flask server...
+2025-05-05 13:34:34,332 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.108:5000
+2025-05-05 13:34:34,339 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-05 13:34:34,345 [INFO]  * Restarting with stat
+2025-05-05 13:34:40,015 [INFO] Logging system initialized.
+2025-05-05 13:34:40,071 [INFO]  plate.py logger is working!
+2025-05-05 13:34:40,072 [INFO] Initializing Plate Detector...
+2025-05-05 13:34:40,073 [INFO]  Starting: Car model loading
+2025-05-05 13:34:40,220 [INFO]  Finished: Car model loading
+2025-05-05 13:34:40,220 [INFO]  Starting: Plate model loading
+2025-05-05 13:34:40,408 [INFO]  Finished: Plate model loading
+2025-05-05 13:34:40,408 [INFO]  Starting: Char model loading
+2025-05-05 13:34:40,636 [INFO]  Finished: Char model loading
+2025-05-05 13:34:40,636 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:34:40,637 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:34:40,639 [INFO] Starting Flask server...
+2025-05-05 13:34:40,665 [WARNING]  * Debugger is active!
+2025-05-05 13:34:40,671 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:36:18,322 [INFO] POST request received for /process_plate
+2025-05-05 13:36:18,330 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:36:18,365 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:36:18,366 [INFO]  Starting plate detection on frame.
+2025-05-05 13:36:24,169 [WARNING] No cars detected in the frame.
+2025-05-05 13:36:24,612 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:36:24,614 [INFO] Plate associated with vehicle ID None added to processing list.
+2025-05-05 13:36:24,615 [INFO]  Processing plate ID: None | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:36:24,616 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:36:26,460 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:36:26,461 [DEBUG] Sending characters to formatter.
+2025-05-05 13:36:26,462 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:36:26,462 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:36:26,463 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:36:26,465 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:36:26,466 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:36:26,467 [DEBUG] Average confidence: 0.88
+2025-05-05 13:36:26,468 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:36:26,469 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:36:26,476 [INFO]  Starting processing for best frames.
+2025-05-05 13:36:26,478 [WARNING] No valid stored car coordinates.
+2025-05-05 13:36:26,488 [DEBUG] Encode frame to base64.
+2025-05-05 13:36:26,496 [INFO] 192.168.1.108 - - [05/May/2025 13:36:26] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:36:31,464 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\config.py', reloading
+2025-05-05 13:36:32,643 [INFO]  * Restarting with stat
+2025-05-05 13:36:38,385 [INFO] Logging system initialized.
+2025-05-05 13:36:38,438 [INFO]  plate.py logger is working!
+2025-05-05 13:36:38,439 [INFO] Initializing Plate Detector...
+2025-05-05 13:36:38,439 [INFO]  Starting: Car model loading
+2025-05-05 13:36:38,586 [INFO]  Finished: Car model loading
+2025-05-05 13:36:38,586 [INFO]  Starting: Plate model loading
+2025-05-05 13:36:38,778 [INFO]  Finished: Plate model loading
+2025-05-05 13:36:38,778 [INFO]  Starting: Char model loading
+2025-05-05 13:36:38,929 [INFO]  Finished: Char model loading
+2025-05-05 13:36:38,930 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:36:38,931 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:36:38,934 [INFO] Starting Flask server...
+2025-05-05 13:36:38,957 [WARNING]  * Debugger is active!
+2025-05-05 13:36:38,965 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:37:22,077 [INFO] POST request received for /process_plate
+2025-05-05 13:37:22,082 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:37:22,100 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:37:22,101 [INFO]  Starting plate detection on frame.
+2025-05-05 13:37:25,398 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-05 13:37:25,926 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:37:25,927 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-05 13:37:25,928 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 13:37:25,930 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:37:25,932 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:37:27,915 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:37:27,916 [DEBUG] Sending characters to formatter.
+2025-05-05 13:37:27,917 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:37:27,917 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:37:27,919 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:37:27,920 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:37:27,920 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:37:27,921 [DEBUG] Average confidence: 0.88
+2025-05-05 13:37:27,927 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:37:27,928 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:37:27,934 [INFO]  Starting processing for best frames.
+2025-05-05 13:37:27,960 [DEBUG] Encode frame to base64.
+2025-05-05 13:37:27,969 [INFO] 192.168.1.108 - - [05/May/2025 13:37:27] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:37:45,712 [INFO] POST request received for /process_plate
+2025-05-05 13:37:45,716 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:37:45,730 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:37:45,731 [INFO]  Starting plate detection on frame.
+2025-05-05 13:37:46,542 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-05 13:37:46,873 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:37:46,874 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-05 13:37:46,875 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 13:37:46,875 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:37:46,876 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:37:47,993 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:37:47,996 [DEBUG] Sending characters to formatter.
+2025-05-05 13:37:47,997 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:37:47,999 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:37:48,000 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:37:48,001 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:37:48,002 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:37:48,004 [DEBUG] Average confidence: 0.88
+2025-05-05 13:37:48,005 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:37:48,006 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:37:48,008 [INFO]  Starting processing for best frames.
+2025-05-05 13:37:48,107 [DEBUG] Encode frame to base64.
+2025-05-05 13:37:48,156 [INFO] 192.168.1.108 - - [05/May/2025 13:37:48] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:39:10,172 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\config.py', reloading
+2025-05-05 13:39:11,632 [INFO]  * Restarting with stat
+2025-05-05 13:39:19,553 [INFO] Logging system initialized.
+2025-05-05 13:39:19,624 [INFO]  plate.py logger is working!
+2025-05-05 13:39:19,625 [INFO] Initializing Plate Detector...
+2025-05-05 13:39:19,626 [INFO]  Starting: Car model loading
+2025-05-05 13:39:19,746 [INFO]  Finished: Car model loading
+2025-05-05 13:39:19,747 [INFO]  Starting: Plate model loading
+2025-05-05 13:39:19,966 [INFO]  Finished: Plate model loading
+2025-05-05 13:39:19,967 [INFO]  Starting: Char model loading
+2025-05-05 13:39:20,116 [INFO]  Finished: Char model loading
+2025-05-05 13:39:20,116 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:39:20,117 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:39:20,121 [INFO] Starting Flask server...
+2025-05-05 13:39:20,177 [WARNING]  * Debugger is active!
+2025-05-05 13:39:20,183 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:43:37,623 [INFO] POST request received for /process_plate
+2025-05-05 13:43:37,627 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:43:37,638 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:43:37,639 [INFO]  Starting plate detection on frame.
+2025-05-05 13:43:40,941 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-05 13:43:41,604 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:43:41,605 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-05 13:43:41,606 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 13:43:41,610 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:43:41,622 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:43:45,114 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:43:45,129 [DEBUG] Sending characters to formatter.
+2025-05-05 13:43:45,170 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:43:45,190 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:43:45,204 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:43:45,260 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:43:45,297 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:43:45,303 [DEBUG] Average confidence: 0.88
+2025-05-05 13:43:45,305 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:43:45,360 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:43:45,439 [INFO]  Starting processing for best frames.
+2025-05-05 13:43:45,551 [DEBUG] Encode frame to base64.
+2025-05-05 13:43:45,580 [INFO] 192.168.1.108 - - [05/May/2025 13:43:45] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:43:50,396 [INFO] POST request received for /process_plate
+2025-05-05 13:43:50,400 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:43:50,410 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:43:50,411 [INFO]  Starting plate detection on frame.
+2025-05-05 13:43:51,155 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-05 13:43:51,557 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:43:51,558 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-05 13:43:51,561 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 13:43:51,562 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:43:51,564 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:43:52,624 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:43:52,625 [DEBUG] Sending characters to formatter.
+2025-05-05 13:43:52,628 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:43:52,628 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:43:52,630 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:43:52,631 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:43:52,632 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:43:52,633 [DEBUG] Average confidence: 0.88
+2025-05-05 13:43:52,636 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:43:52,637 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:43:52,639 [INFO]  Starting processing for best frames.
+2025-05-05 13:43:52,647 [DEBUG] Encode frame to base64.
+2025-05-05 13:43:52,652 [INFO] 192.168.1.108 - - [05/May/2025 13:43:52] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:43:58,114 [INFO] POST request received for /process_plate
+2025-05-05 13:43:58,117 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:43:58,125 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:43:58,126 [INFO]  Starting plate detection on frame.
+2025-05-05 13:43:59,107 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-05 13:43:59,522 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:43:59,525 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-05 13:43:59,527 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 13:43:59,531 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:43:59,532 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:44:00,904 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:44:00,905 [DEBUG] Sending characters to formatter.
+2025-05-05 13:44:00,905 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:44:00,906 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:44:00,907 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:44:00,908 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:44:00,909 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:44:00,910 [DEBUG] Average confidence: 0.88
+2025-05-05 13:44:00,911 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:44:00,913 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:44:00,919 [INFO]  Starting processing for best frames.
+2025-05-05 13:44:00,933 [DEBUG] Encode frame to base64.
+2025-05-05 13:44:00,939 [INFO] 192.168.1.108 - - [05/May/2025 13:44:00] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:46:42,425 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 13:46:43,876 [INFO]  * Restarting with stat
+2025-05-05 13:46:50,806 [INFO] Logging system initialized.
+2025-05-05 13:46:50,881 [INFO]  plate.py logger is working!
+2025-05-05 13:46:50,882 [INFO] Initializing Plate Detector...
+2025-05-05 13:46:50,882 [INFO]  Starting: Car model loading
+2025-05-05 13:46:51,008 [INFO]  Finished: Car model loading
+2025-05-05 13:46:51,012 [INFO]  Starting: Plate model loading
+2025-05-05 13:46:51,281 [INFO]  Finished: Plate model loading
+2025-05-05 13:46:51,282 [INFO]  Starting: Char model loading
+2025-05-05 13:46:51,463 [INFO]  Finished: Char model loading
+2025-05-05 13:46:51,464 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 13:46:51,465 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 13:46:51,467 [INFO] Starting Flask server...
+2025-05-05 13:46:51,496 [WARNING]  * Debugger is active!
+2025-05-05 13:46:51,504 [INFO]  * Debugger PIN: 127-031-298
+2025-05-05 13:49:44,520 [INFO] POST request received for /process_plate
+2025-05-05 13:49:44,525 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:49:44,537 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:49:44,538 [INFO]  Starting plate detection on frame.
+2025-05-05 13:49:48,625 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-05 13:49:49,159 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:49:49,160 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-05 13:49:49,160 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 13:49:49,161 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:49:49,162 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:49:51,302 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:49:51,303 [DEBUG] Sending characters to formatter.
+2025-05-05 13:49:51,304 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:49:51,304 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:49:51,305 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:49:51,306 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:49:51,310 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:49:51,311 [DEBUG] Average confidence: 0.88
+2025-05-05 13:49:51,313 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:49:51,314 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:49:51,320 [INFO]  Starting processing for best frames.
+2025-05-05 13:49:51,350 [DEBUG] Encode frame to base64.
+2025-05-05 13:49:51,354 [INFO] 192.168.1.108 - - [05/May/2025 13:49:51] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 13:49:57,050 [INFO] POST request received for /process_plate
+2025-05-05 13:49:57,053 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 13:49:57,062 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 13:49:57,063 [INFO]  Starting plate detection on frame.
+2025-05-05 13:49:57,896 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-05 13:49:58,452 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 13:49:58,453 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-05 13:49:58,454 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 13:49:58,455 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-05 13:49:58,458 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 13:50:00,267 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 13:50:00,270 [DEBUG] Sending characters to formatter.
+2025-05-05 13:50:00,270 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 13:50:00,272 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 13:50:00,273 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 13:50:00,273 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 13:50:00,274 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 13:50:00,275 [DEBUG] Average confidence: 0.88
+2025-05-05 13:50:00,280 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 13:50:00,284 [INFO] Character recognition completed on detected plates.
+2025-05-05 13:50:00,295 [INFO]  Starting processing for best frames.
+2025-05-05 13:50:00,364 [DEBUG] Encode frame to base64.
+2025-05-05 13:50:00,370 [INFO] 192.168.1.108 - - [05/May/2025 13:50:00] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 14:02:34,676 [INFO] POST request received for /process_plate
+2025-05-05 14:02:34,680 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 14:02:34,719 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 14:02:34,743 [INFO]  Starting plate detection on frame.
+2025-05-05 14:02:37,091 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-05 14:02:38,110 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 14:02:38,112 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-05 14:02:38,114 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 14:02:38,119 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-05 14:02:38,121 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 14:02:40,135 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 14:02:40,136 [DEBUG] Sending characters to formatter.
+2025-05-05 14:02:40,137 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 14:02:40,140 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 14:02:40,144 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 14:02:40,145 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 14:02:40,160 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 14:02:40,164 [DEBUG] Average confidence: 0.88
+2025-05-05 14:02:40,165 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 14:02:40,205 [INFO] Character recognition completed on detected plates.
+2025-05-05 14:02:40,213 [INFO]  Starting processing for best frames.
+2025-05-05 14:02:40,231 [DEBUG] Encode frame to base64.
+2025-05-05 14:02:40,244 [INFO] 192.168.1.108 - - [05/May/2025 14:02:40] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 14:02:43,948 [INFO] POST request received for /process_plate
+2025-05-05 14:02:43,951 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 14:02:43,963 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 14:02:43,969 [INFO]  Starting plate detection on frame.
+2025-05-05 14:02:44,858 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-05 14:02:45,159 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 14:02:45,160 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-05 14:02:45,161 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 14:02:45,162 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-05 14:02:45,162 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 14:02:46,347 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 14:02:46,349 [DEBUG] Sending characters to formatter.
+2025-05-05 14:02:46,350 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 14:02:46,353 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 14:02:46,354 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 14:02:46,359 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 14:02:46,362 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 14:02:46,363 [DEBUG] Average confidence: 0.88
+2025-05-05 14:02:46,364 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 14:02:46,365 [INFO] Character recognition completed on detected plates.
+2025-05-05 14:02:46,371 [INFO]  Starting processing for best frames.
+2025-05-05 14:02:46,385 [DEBUG] Encode frame to base64.
+2025-05-05 14:02:46,398 [INFO] 192.168.1.108 - - [05/May/2025 14:02:46] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 14:04:55,528 [INFO] POST request received for /process_plate
+2025-05-05 14:04:55,535 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 14:04:55,593 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 14:04:55,595 [INFO]  Starting plate detection on frame.
+2025-05-05 14:04:56,607 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-05 14:04:56,955 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 14:04:56,956 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-05 14:04:56,957 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 14:04:56,958 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-05 14:04:56,960 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 14:04:58,157 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 14:04:58,158 [DEBUG] Sending characters to formatter.
+2025-05-05 14:04:58,159 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 14:04:58,159 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 14:04:58,160 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 14:04:58,161 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 14:04:58,161 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 14:04:58,162 [DEBUG] Average confidence: 0.88
+2025-05-05 14:04:58,162 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 14:04:58,163 [INFO] Character recognition completed on detected plates.
+2025-05-05 14:04:58,165 [INFO]  Starting processing for best frames.
+2025-05-05 14:04:58,176 [DEBUG] Encode frame to base64.
+2025-05-05 14:04:58,185 [INFO] 192.168.1.108 - - [05/May/2025 14:04:58] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 14:06:01,857 [INFO] POST request received for /process_plate
+2025-05-05 14:06:01,859 [INFO] Received image data (timestamp: April 2025)
+2025-05-05 14:06:01,868 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-05 14:06:01,868 [INFO]  Starting plate detection on frame.
+2025-05-05 14:06:02,785 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-05 14:06:03,135 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-05 14:06:03,136 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-05 14:06:03,136 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-05 14:06:03,139 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-05 14:06:03,140 [DEBUG] Plate cropped and resized for OCR.
+2025-05-05 14:06:04,533 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-05 14:06:04,534 [DEBUG] Sending characters to formatter.
+2025-05-05 14:06:04,534 [DEBUG] Characters sorted by confidence: %s
+2025-05-05 14:06:04,535 [DEBUG] Characters sorted by x1 position: %s
+2025-05-05 14:06:04,536 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-05 14:06:04,539 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-05 14:06:04,540 [DEBUG] Formatted plate string: 95BE94826
+2025-05-05 14:06:04,541 [DEBUG] Average confidence: 0.88
+2025-05-05 14:06:04,542 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-05 14:06:04,548 [INFO] Character recognition completed on detected plates.
+2025-05-05 14:06:04,551 [INFO]  Starting processing for best frames.
+2025-05-05 14:06:04,572 [DEBUG] Encode frame to base64.
+2025-05-05 14:06:04,581 [INFO] 192.168.1.108 - - [05/May/2025 14:06:04] "POST /process_plate HTTP/1.1" 200 -
+2025-05-05 14:06:09,898 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\plate.py', reloading
+2025-05-05 14:06:11,403 [INFO]  * Restarting with stat
+2025-05-05 14:06:20,066 [INFO] Logging system initialized.
+2025-05-05 14:06:20,152 [INFO]  plate.py logger is working!
+2025-05-05 14:06:20,153 [INFO] Initializing Plate Detector...
+2025-05-05 14:06:20,154 [INFO]  Starting: Car model loading
+2025-05-05 14:06:20,335 [INFO]  Finished: Car model loading
+2025-05-05 14:06:20,336 [INFO]  Starting: Plate model loading
+2025-05-05 14:06:20,599 [INFO]  Finished: Plate model loading
+2025-05-05 14:06:20,600 [INFO]  Starting: Char model loading
+2025-05-05 14:06:20,857 [INFO]  Finished: Char model loading
+2025-05-05 14:06:20,857 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-05 14:06:20,858 [INFO] Plate Detector Initialized Successfully.
+2025-05-05 14:06:20,862 [INFO] Starting Flask server...
+2025-05-05 14:06:20,900 [WARNING]  * Debugger is active!
+2025-05-05 14:06:20,906 [INFO]  * Debugger PIN: 127-031-298
+2025-05-28 10:28:21,914 [INFO] Logging system initialized.
+2025-05-28 10:28:22,113 [INFO]  plate.py logger is working!
+2025-05-28 10:28:22,115 [INFO] Initializing Plate Detector...
+2025-05-28 10:28:22,116 [INFO]  Starting: Car model loading
+2025-05-28 10:28:22,423 [INFO]  Finished: Car model loading
+2025-05-28 10:28:22,423 [INFO]  Starting: Plate model loading
+2025-05-28 10:28:22,848 [INFO]  Finished: Plate model loading
+2025-05-28 10:28:22,848 [INFO]  Starting: Char model loading
+2025-05-28 10:28:26,593 [INFO]  Finished: Char model loading
+2025-05-28 10:28:26,594 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-28 10:28:26,596 [INFO] Plate Detector Initialized Successfully.
+2025-05-28 10:28:26,603 [INFO] Starting Flask server...
+2025-05-28 10:28:27,773 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.107:5000
+2025-05-28 10:28:27,775 [INFO] [33mPress CTRL+C to quit[0m
+2025-05-28 10:28:27,795 [INFO]  * Restarting with stat
+2025-05-28 10:28:38,652 [INFO] Logging system initialized.
+2025-05-28 10:28:38,869 [INFO]  plate.py logger is working!
+2025-05-28 10:28:38,871 [INFO] Initializing Plate Detector...
+2025-05-28 10:28:38,874 [INFO]  Starting: Car model loading
+2025-05-28 10:28:39,180 [INFO]  Finished: Car model loading
+2025-05-28 10:28:39,181 [INFO]  Starting: Plate model loading
+2025-05-28 10:28:39,521 [INFO]  Finished: Plate model loading
+2025-05-28 10:28:39,521 [INFO]  Starting: Char model loading
+2025-05-28 10:28:39,815 [INFO]  Finished: Char model loading
+2025-05-28 10:28:39,816 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-28 10:28:39,817 [INFO] Plate Detector Initialized Successfully.
+2025-05-28 10:28:39,820 [INFO] Starting Flask server...
+2025-05-28 10:28:39,854 [WARNING]  * Debugger is active!
+2025-05-28 10:28:39,864 [INFO]  * Debugger PIN: 127-031-298
+2025-05-28 10:28:49,710 [INFO] POST request received for /process_plate
+2025-05-28 10:28:49,713 [INFO] Received image data (timestamp: April 2025)
+2025-05-28 10:28:49,745 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-28 10:28:49,772 [INFO]  Starting plate detection on frame.
+2025-05-28 10:28:55,228 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-28 10:28:56,035 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-28 10:28:56,036 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-28 10:28:56,037 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-28 10:28:56,039 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-28 10:28:56,040 [DEBUG] Plate cropped and resized for OCR.
+2025-05-28 10:28:58,279 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-28 10:28:58,282 [DEBUG] Sending characters to formatter.
+2025-05-28 10:28:58,284 [DEBUG] Characters sorted by confidence: %s
+2025-05-28 10:28:58,285 [DEBUG] Characters sorted by x1 position: %s
+2025-05-28 10:28:58,285 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-28 10:28:58,286 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-28 10:28:58,287 [DEBUG] Formatted plate string: 95BE94826
+2025-05-28 10:28:58,298 [DEBUG] Average confidence: 0.88
+2025-05-28 10:28:58,299 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-28 10:28:58,300 [INFO] Character recognition completed on detected plates.
+2025-05-28 10:28:58,302 [INFO]  Starting processing for best frames.
+2025-05-28 10:28:58,324 [DEBUG] Encode frame to base64.
+2025-05-28 10:28:58,333 [INFO] 192.168.1.107 - - [28/May/2025 10:28:58] "POST /process_plate HTTP/1.1" 200 -
+2025-05-28 10:40:59,986 [INFO] POST request received for /process_plate
+2025-05-28 10:40:59,991 [INFO] Received image data (timestamp: April 2025)
+2025-05-28 10:41:00,007 [INFO] Decoded image shape: (720, 1280, 3)
+2025-05-28 10:41:00,014 [INFO]  Starting plate detection on frame.
+2025-05-28 10:41:01,177 [INFO] Car detected with coordinates: tensor([[ 82.2866,   4.8851, 368.2463, 351.0328]])
+2025-05-28 10:41:01,831 [DEBUG] Detected plate box: (177, 273, 258, 291)
+2025-05-28 10:41:01,832 [DEBUG] Plate matched to vehicle ID: 0 with distance: 104.81
+2025-05-28 10:41:01,832 [INFO] Plate associated with vehicle ID 0 added to processing list.
+2025-05-28 10:41:01,836 [INFO]  Processing plate ID: 0 | Coordinates: (177, 273, 258, 291)
+2025-05-28 10:41:01,839 [DEBUG] Plate cropped and resized for OCR.
+2025-05-28 10:41:02,956 [DEBUG] Extracted characters (x1, char, conf): [(50, 'BE', 0.9359524846076965), (17, '9', 0.8906731009483337), (34, '5', 0.8859483599662781), (143, '6', 0.8817813396453857), (109, '8', 0.8755844831466675), (78, '9', 0.8719102740287781), (94, '4', 0.8694108724594116), (129, '2', 0.8642857670783997)]
+2025-05-28 10:41:02,958 [DEBUG] Sending characters to formatter.
+2025-05-28 10:41:02,960 [DEBUG] Characters sorted by confidence: %s
+2025-05-28 10:41:02,964 [DEBUG] Characters sorted by x1 position: %s
+2025-05-28 10:41:02,964 [DEBUG] Selected letter for 3rd slot: BE (confidence: 0.94)
+2025-05-28 10:41:02,965 [INFO] Final formatted plate: 95BE94826 with confidence: 0.88
+2025-05-28 10:41:02,966 [DEBUG] Formatted plate string: 95BE94826
+2025-05-28 10:41:02,967 [DEBUG] Average confidence: 0.88
+2025-05-28 10:41:02,971 [INFO]  Plate recognized: 95BE94826 | Confidence: 0.88
+2025-05-28 10:41:02,973 [INFO] Character recognition completed on detected plates.
+2025-05-28 10:41:02,979 [INFO]  Starting processing for best frames.
+2025-05-28 10:41:02,994 [DEBUG] Encode frame to base64.
+2025-05-28 10:41:03,004 [INFO] 192.168.1.107 - - [28/May/2025 10:41:03] "POST /process_plate HTTP/1.1" 200 -
+2025-05-28 10:59:30,160 [INFO]  * Detected change in 'E:\\University\\Semesters\\Work\\Tiva_Surveillance_API\\tiva_surveillance_api_service.py', reloading
+2025-05-28 10:59:32,110 [INFO]  * Restarting with stat
+2025-05-28 10:59:39,592 [INFO] Logging system initialized.
+2025-05-28 10:59:39,661 [INFO]  plate.py logger is working!
+2025-05-28 10:59:39,662 [INFO] Initializing Plate Detector...
+2025-05-28 10:59:39,663 [INFO]  Starting: Car model loading
+2025-05-28 10:59:39,817 [INFO]  Finished: Car model loading
+2025-05-28 10:59:39,818 [INFO]  Starting: Plate model loading
+2025-05-28 10:59:40,078 [INFO]  Finished: Plate model loading
+2025-05-28 10:59:40,079 [INFO]  Starting: Char model loading
+2025-05-28 10:59:40,321 [INFO]  Finished: Char model loading
+2025-05-28 10:59:40,322 [INFO] Detection region set to: [(0, 0), (1280, 720)]
+2025-05-28 10:59:40,323 [INFO] Plate Detector Initialized Successfully.
+2025-05-28 10:59:40,325 [INFO] Starting Flask server...
+2025-05-28 10:59:40,357 [WARNING]  * Debugger is active!
+2025-05-28 10:59:40,366 [INFO]  * Debugger PIN: 127-031-298
